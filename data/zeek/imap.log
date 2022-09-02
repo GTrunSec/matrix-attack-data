@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	imap
+#open	2022-09-02-02-16-49
+#fields	ts	id.orig_h	id.orig_p	id.resp_h	id.resp_p	uid	start_time	end_time	duration	service	mailfrom	history	rcptto	date	from	to	cc	user_name	user_password	capabilities	tls
+#types	time	addr	port	addr	port	string	time	time	interval	set[string]	string	string	set[string]	string	string	set[string]	set[string]	set[string]	set[string]	vector[string]	bool
+2.9612763826893802e+09	127.0.0.1	53477	127.0.0.1	143	C04Zyi1rpPFZ2kh0dk	2.9612763826893802e+09	-	-1538646470.847671	SSL,IMAP	-	^hAdDa	-	-	-	-	-	(empty)	(empty)	IMAP4rev1,LITERAL+,SASL-IR,LOGIN-REFERRALS,ID,ENABLE,IDLE,STARTTLS,AUTH=PLAIN	T
+#close	2022-09-02-02-16-49

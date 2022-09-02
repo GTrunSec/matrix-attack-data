@@ -4,26 +4,11 @@ type id = record{
         resp_h: addr,
         resp_p: count,
     }
-type location_orig = record{
-        city: string,
-        country_code: string,
-        latitute: count,
-        longitude: string,
-        region: string,
-    }
-type location_resp = record{
-        city: string,
-        country_code: string,
-        latitute: count,
-        longitude: count,
-        region: string,
-    }
-type zeek.pop3 = record{
+type zeek.imap = record{
         _path: string,
         _write_ts: time,
         cc: list<string>,
         date: string,
-        entity_count: count,
         first_received: string,
         from: string,
         fuids: list<string>,
@@ -32,12 +17,9 @@ type zeek.pop3 = record{
         in_reply_to: string,
         is_webmail: bool,
         last_reply: string,
-        location_orig: location_orig,
-        location_resp: location_resp,
         mailfrom: string,
         msg_id: string,
         path: list<addr>,
-        process_pop3_headers: bool,
         rcptto: list<string>,
         reply_to: string,
         second_received: string,

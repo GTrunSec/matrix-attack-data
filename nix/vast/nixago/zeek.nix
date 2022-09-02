@@ -9,7 +9,7 @@
   genAttrs = l.listToAttrs (map (attr: {
     name = "zeek-${attr}";
     value = {
-      tags = ["schema" "zeek"];
+      tags = ["schema" "zeek" "${attr}"];
       steps = [
         {
           command = "-N import -s ${cell.schemas."zeek-${attr}"} -t zeek.${attr} zeek";
@@ -20,10 +20,6 @@
         }
       ];
     };
-  }) ["conn" "smtp" "pop3"]);
-in {
-  /*
-  zeek conn
-  */
-  inherit (genAttrs) zeek-conn zeek-smtp zeek-pop3;
-}
+  }) ["conn" "smtp" "pop3" "imap"]);
+in
+  genAttrs

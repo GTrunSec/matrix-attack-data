@@ -170,8 +170,8 @@
     "queries": {
       "request": [
         {
-          "title": "Google Custom Search - inurl:https://customsearch.googleapis.com/customsearch/v1?cx=16dd5cf3c2ee84fc7&q=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
-          "searchTerms": "inurl:https://customsearch.googleapis.com/customsearch/v1?cx=16dd5cf3c2ee84fc7&q=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
+          "title": "Google Custom Search - inurl:https://customsearch.googleapis.com/=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
+          "searchTerms": "inurl:https://customsearch.googleapis.com/=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
           "count": 10,
           "startIndex": 1,
           "inputEncoding": "utf8",

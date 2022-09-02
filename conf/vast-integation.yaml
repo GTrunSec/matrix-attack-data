@@ -1,21 +1,37 @@
 tests:
   google-phishing-api:
     steps:
-      - command:
-          -N import -s /nix/store/q57vsxkckkkw470mjkzl87bvvzsq15q9-google-phishing-api.schema
-          -t google.phishing.api json
-        transformation: jq -ec '.[0]' ./data/google-phishing-api.json
-      - command: '-N export json ''#type == "google.phishing.api"'' '
+    - command: -N import -s /nix/store/q57vsxkckkkw470mjkzl87bvvzsq15q9-google-phishing-api.schema
+        -t google.phishing.api json
+      transformation: jq -ec '.[0]' ./data/API/google-phishing-api.json
+    - command: '-N export json ''#type == "google.phishing.api"'' '
     tags:
-      - schema
-      - json
+    - schema
+    - json
   google-search-api:
     steps:
-      - command:
-          -N import -s /nix/store/ibxh8lqkzbm235ibcqgj1xygqzsiiyha-google-search-api.schema
-          -t google.search.api json
-        transformation: jq -ec '.[1]' ./data/google-search-api.json
-      - command: '-N export json ''#type == "google.search.api"'' '
+    - command: -N import -s /nix/store/ibxh8lqkzbm235ibcqgj1xygqzsiiyha-google-search-api.schema
+        -t google.search.api json
+      transformation: jq -ec '.[1]' ./data/API/google-search-api.json
+    - command: '-N export json ''#type == "google.search.api"'' '
     tags:
-      - schema
-      - json
+    - schema
+    - json
+  zeek-conn:
+    steps:
+    - command: -N import -s /nix/store/5w0pdv9lzzs1y1lqim52fi7aw56baygn-zeek-conn.schema
+        -t zeek.conn zeek
+      input: /nix/store/w8q882bw0jdakvf6bkmqv2vv6mbrmwiz-incl/data/zeek/conn.log
+    - command: '-N export ascii ''#type == "zeek.conn"'' '
+    tags:
+    - schema
+    - zeek
+  zeek-smtp:
+    steps:
+    - command: -N import -s /nix/store/gbpr7fwzf726f8wxqv29scl7sbqv5y1z-zeek-smtp.schema
+        -t zeek.smtp zeek
+      input: /nix/store/w8q882bw0jdakvf6bkmqv2vv6mbrmwiz-incl/data/zeek/smtp.log
+    - command: '-N export ascii ''#type == "zeek.smtp"'' '
+    tags:
+    - schema
+    - zeek

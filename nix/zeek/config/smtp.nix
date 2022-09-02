@@ -2,12 +2,12 @@
   inputs,
   cell,
 }: let
-  id = cell.config.conn.id;
+  inherit (cell.config.conn) id;
 in {
   inherit id;
   _path = "string";
   _write_ts = "time";
-  ts = "timestamp";
+  ts = "time";
   uid = "string #index=hash";
   trans_depth = "count";
   helo = "string";

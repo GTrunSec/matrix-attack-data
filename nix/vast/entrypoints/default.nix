@@ -11,8 +11,8 @@ in {
     runtimeInputs = [vast2nix.packages.${nixpkgs.system}.vast-integration vast2nix.packages.${nixpkgs.system}.vast-bin nixpkgs.jq];
     text = ''
       # shellcheck disable=all
-      if [[ -n "$@" ]]; then
-      vast-integration -s ${cell.nixago.vast-integation.configFile} -t "$@" || true
+      if [[ ! -z "$1" ]]; then
+         vast-integration -s ${cell.nixago.vast-integation.configFile} -t "$@" || true
       else
         vast-integration -s ${cell.nixago.vast-integation.configFile} || true
       fi

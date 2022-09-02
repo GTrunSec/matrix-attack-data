@@ -17,7 +17,7 @@ in
       devshell.startup.cpSchemas = let
         vastSchemas = l.concatStrings (map (a: ''
             cp -rf --no-preserve=mode,ownership ${a} \
-            $PRJ_ROOT/data/schemas/${a.name}
+            $PRJ_ROOT/data/vast/${a.name}
           '')
           (l.attrValues
             inputs.cells.vast.schemas));

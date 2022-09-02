@@ -18,8 +18,8 @@ in {
     };
     configData.formatter.prettier = {
       excludes = [
-        "conf/schemas/*"
-        "Manifest.toml"
+        "conf/*"
+        "data/*"
       ];
     };
   };

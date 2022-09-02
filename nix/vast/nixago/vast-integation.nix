@@ -5,8 +5,7 @@
   inherit (inputs) nixpkgs;
   zeek = import ./zeek.nix args;
 in {
-  tests = {
-    inherit (zeek) zeek-conn zeek-smtp;
+  tests = zeek // {
     /*
     Google search search API
     */

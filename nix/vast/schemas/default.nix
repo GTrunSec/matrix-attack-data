@@ -7,4 +7,5 @@
 
   zeek-conn = import ./zeek-conn.nix args;
   zeek-smtp = import ./zeek-smtp.nix args;
+  zeek-pop3 = import ./zeek-pop3.nix args;
 }

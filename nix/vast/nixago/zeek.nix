@@ -20,10 +20,10 @@
         }
       ];
     };
-  }) ["conn" "smtp"]);
+  }) ["conn" "smtp" "pop3"]);
 in {
   /*
   zeek conn
   */
-  inherit (genAttrs) zeek-conn zeek-smtp;
+  inherit (genAttrs) zeek-conn zeek-smtp zeek-pop3;
 }

@@ -21,6 +21,8 @@
   subject = "string";
   x_originating_ip = "addr";
   first_received = "string";
+  process_pop3_headers = "bool";
+  entity_count = "count";
   second_received = "string";
   last_reply = "string";
   path = "list<addr>";

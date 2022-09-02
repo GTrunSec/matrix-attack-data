@@ -4,13 +4,13 @@
 }: {
   id = {
     orig_h = "addr";
-    orig_p = "port";
+    orig_p = "count";
     resp_h = "addr";
-    resp_p = "port";
+    resp_p = "count";
   };
   _path = "string";
   _write_ts = "time";
-  ts = "timestamp";
+  ts = "time";
   uid = "string #index=hash";
   proto = "string";
   service = "string";

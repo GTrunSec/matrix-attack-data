@@ -1,10 +1,12 @@
 {
   inputs,
   cell,
-}: let
+} @ args: let
   inherit (inputs) nixpkgs;
+  zeek = import ./zeek.nix args;
 in {
   tests = {
+    inherit (zeek) zeek-conn;
     /*
     Google search search API
     */
@@ -24,7 +26,6 @@ in {
     /*
     Google phishing search API
     */
-
     google-phishing-api = {
       tags = ["schema" "json"];
       steps = [

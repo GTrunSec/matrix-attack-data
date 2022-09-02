@@ -14,8 +14,7 @@ in {
       if [[ -n "$@" ]]; then
       vast-integration -s ${cell.nixago.vast-integation.configFile} -t "$@" || true
       else
-        vast-integration -s ${cell.nixago.vast-integation.configFile} -t google-search-api "$@" || true
-        vast-integration -s ${cell.nixago.vast-integation.configFile} -t google-phishing-api "$@" || true
+        vast-integration -s ${cell.nixago.vast-integation.configFile} || true
       fi
       rm -rf run_*
     '';

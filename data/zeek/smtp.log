@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2022-08-26-01-02-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	cc	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	tls	fuids	sc
+#types	time	string	addr	port	addr	port	count	string	string	set[string]	string	string	set[string]	set[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	bool	vector[string]	set[string]
+1661488515.552872	CK141B21ofBXSoBjc1	192.168.10.134	48171	58.251.106.181	25	1	KPASA63E	710526925@qq.com	liweizhu0708@hotmail.com,piggy@relaxcloud.cn,liweizhu0708@gmail.com	Fri, 26 Aug 2022 12:35:15 +0800	"710526925@qq.com" <710526925@qq.com>	liweizhu0708 <liweizhu0708@hotmail.com>	piggy <piggy@relaxcloud.cn>	-	<202208261235149899990@qq.com>	-	misong	-	-	-	250 OK: queued as.	58.251.106.181,192.168.10.134	Foxmail 7.2.24.96[cn]	F	FlZRYa3l0UwsNZOsQc,FG4QHM2pQs42duov4d	liweizhu0708@gmail.com
+#close	2022-08-26-01-02-01

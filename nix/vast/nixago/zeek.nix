@@ -16,7 +16,7 @@
           input = "${data}/${attr}.log";
         }
         {
-          command = ''-N export ascii '#type == "zeek.${attr}"' '';
+          command = ''-N export json '#type == "zeek.${attr}"' '';
         }
       ];
     };

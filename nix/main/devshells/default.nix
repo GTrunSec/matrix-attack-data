@@ -12,7 +12,19 @@ in
         inputs.cells-lab.main.devshellProfiles.default
       ];
 
-      nixago = [cell.nixago.mdbook] ++ l.attrValues inputs.cells.vast.nixago;
+      nixago = [cell.nixago.mdbook cell.nixago.treefmt] ++ l.attrValues inputs.cells.vast.nixago;
+
+      devshell.startup.cpSchemas = let
+        vastSchemas = l.concatStrings (map (a: ''
+            cp -rf --no-preserve=mode,ownership ${a} \
+            $PRJ_ROOT/data/schemas/${a.name}
+          '')
+          (l.attrValues
+            inputs.cells.vast.schemas));
+      in
+        l.stringsWithDeps.noDepEntry ''
+          ${vastSchemas}
+        '';
     };
     doc = {
       name = "mkdocs";

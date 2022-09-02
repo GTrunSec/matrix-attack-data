@@ -1,1 +1,4 @@
-{inputs, cell}:{}
+{
+  inputs,
+  cell,
+}: {}

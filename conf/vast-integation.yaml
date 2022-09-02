@@ -1,10 +1,11 @@
 tests:
   google-index-api:
     steps:
-    - command: -N import -s /nix/store/cb1g6g5jl3wlavmdwlz5q093ngrmcmws-google-index-api.schema
-        -t google.index.api json
-      transformation: jq -ec '.[1]' ./data/google-index-api-result.json
-    - command: '-N export json ''#type == "google.index.api"'' '
+      - command:
+          -N import -s /nix/store/cb1g6g5jl3wlavmdwlz5q093ngrmcmws-google-index-api.schema
+          -t google.index.api json
+        transformation: jq -ec '.[1]' ./data/google-index-api-result.json
+      - command: '-N export json ''#type == "google.index.api"'' '
     tags:
-    - schema
-    - json
+      - schema
+      - json

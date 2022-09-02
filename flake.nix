@@ -24,6 +24,8 @@
 
         (std.data "config")
 
+        (std.data "jsonschemas")
+
         (std.files "schemas")
 
         (std.nixago "nixago")

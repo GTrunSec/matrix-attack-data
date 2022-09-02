@@ -23,6 +23,9 @@ jobs:
         with:
           name: zeek
 
+      - name: Check JsonSchema
+        run: |
+          nix develop --command std //common/entrypoints/check:run
 
       - name: Check Vast Integration and task
         run: |

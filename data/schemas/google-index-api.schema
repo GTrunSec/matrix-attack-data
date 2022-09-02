@@ -1,0 +1,29 @@
+type google.index.api = record{
+        kind: string,
+        queries: queries,
+        searchInformation: searchInformation,
+        url: url,
+    }
+type queries = record{
+        required: list<required>,
+    }
+type required = record{
+        count: string,
+        cx: string,
+        inputEncoding: string,
+        outputEncoding: string,
+        safe: string,
+        searchTerms: string,
+        startIndex: string,
+        title: string,
+    }
+type searchInformation = record{
+        formattedSearchTime: string,
+        formattedTotalResults: string,
+        searchTime: count,
+        totalResults: string,
+    }
+type url = record{
+        template: string,
+        type: string,
+    }

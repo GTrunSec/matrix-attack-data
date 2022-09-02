@@ -1,0 +1,10 @@
+type google.phishing.api = record{
+        cacheDuration: string,
+        platformTyp: string,
+        threat: threat,
+        threatEntryType: string,
+        threatType: string,
+    }
+type threat = record{
+        url: string,
+    }

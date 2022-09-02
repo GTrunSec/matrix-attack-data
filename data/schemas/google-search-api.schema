@@ -1,4 +1,4 @@
-type google.index.api = record{
+type google.search.api = record{
         kind: string,
         queries: queries,
         searchInformation: searchInformation,

@@ -12,9 +12,10 @@ in {
     text = ''
       # shellcheck disable=all
       if [[ -n "$@" ]]; then
-      vast-integration -s ${cell.nixago.vast-phishing-integation.configFile} -t "$@" || true
+      vast-integration -s ${cell.nixago.vast-integation.configFile} -t "$@" || true
       else
-        vast-integration -s ${cell.nixago.vast-phishing-integation.configFile} -t google-index-api "$@" || true
+        vast-integration -s ${cell.nixago.vast-integation.configFile} -t google-search-api "$@" || true
+        vast-integration -s ${cell.nixago.vast-integation.configFile} -t google-phishing-api "$@" || true
       fi
       rm -rf run_*
     '';

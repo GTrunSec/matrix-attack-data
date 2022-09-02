@@ -5,11 +5,11 @@
   inherit (inputs.cells.main.library) __inputs__ l;
   inherit (__inputs__.vast2nix.schemas) library;
 
-  data = v: cell.library.mapAttrsToString (l.getAttrFromPath v (inputs.cells.zeek.config.conn));
+  data = v: cell.library.mapAttrsToString (l.getAttrFromPath v (inputs.cells.zeek.config.smtp));
 in
-  library.writeVastSchema "zeek-conn.schema" {
+  library.writeVastSchema "zeek-smtp.schema" {
     config = {
-      "zeek.conn" = data [];
+      "zeek.smtp" = data [];
       id = data ["id"];
     };
     fixConfig = {};

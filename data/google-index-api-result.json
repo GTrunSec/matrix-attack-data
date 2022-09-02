@@ -1,0 +1,521 @@
+[
+    {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:http://shouji.wx12.xyz/",
+                    "searchTerms": "inurl:http://shouji.wx12.xyz/",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.1061,
+            "formattedSearchTime": "0.11",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://excited-confused-latency.glitch.me/pyd.htm#dbpzx@chinabond.com.cn",
+                    "searchTerms": "inurl:https://excited-confused-latency.glitch.me/pyd.htm#dbpzx@chinabond.com.cn",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.138464,
+            "formattedSearchTime": "0.14",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://danniferskitchen.com/.well-known/clich/vwr.php?eid=liang@cofco.com",
+                    "searchTerms": "inurl:https://danniferskitchen.com/.well-known/clich/vwr.php?eid=liang@cofco.com",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.356031,
+            "formattedSearchTime": "0.36",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://batesvillecrb.tunesincdeejay.com/wp-admin/smt/LiinkedInhardest/900/index.php#huangping@cofco.com",
+                    "searchTerms": "inurl:https://batesvillecrb.tunesincdeejay.com/wp-admin/smt/LiinkedInhardest/900/index.php#huangping@cofco.com",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.156314,
+            "formattedSearchTime": "0.16",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://cicerosoares.com.br/wp-admin/lknd.htm#liujy@chinabond.com.cn",
+                    "searchTerms": "inurl:https://cicerosoares.com.br/wp-admin/lknd.htm#liujy@chinabond.com.cn",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.339808,
+            "formattedSearchTime": "0.34",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://arafainvest.com/xxzz/AZEXCEL/index.php?email=oyf@gf.com.cn",
+                    "searchTerms": "inurl:https://arafainvest.com/xxzz/AZEXCEL/index.php?email=oyf@gf.com.cn",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.163107,
+            "formattedSearchTime": "0.16",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://customsearch.googleapis.com/customsearch/v1?cx=16dd5cf3c2ee84fc7&q=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
+                    "searchTerms": "inurl:https://customsearch.googleapis.com/customsearch/v1?cx=16dd5cf3c2ee84fc7&q=inurl:https://www.freebuf.com&key=AIzaSyBxsBvxMsmHTV2mUE8tTF9ryka-ct4tMOw",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.185864,
+            "formattedSearchTime": "0.19",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+      },
+      {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:http://www.jshqjt.com/ow-admin/login.asp",
+                    "totalResults": "1",
+                    "searchTerms": "inurl:http://www.jshqjt.com/ow-admin/login.asp",
+                    "count": 1,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "context": {
+            "title": "UrlScan"
+        },
+        "searchInformation": {
+            "searchTime": 0.15438,
+            "formattedSearchTime": "0.15",
+            "totalResults": "1",
+            "formattedTotalResults": "1"
+        },
+        "items": [
+            {
+                "kind": "customsearch#result",
+                "title": "管理员登陆- 后台管理系统",
+                "htmlTitle": "管理员登陆- 后台管理系统",
+                "link": "http://www.jshqjt.com/ow-admin/login.asp",
+                "displayLink": "www.jshqjt.com",
+                "snippet": "管理员登陆. 账号. 登陆密码. 验证码. 立即登录. 忘记密码？",
+                "htmlSnippet": "管理员登陆. 账号. 登陆密码. 验证码. 立即登录. 忘记密码？",
+                "cacheId": "W7sKLdcZ6xwJ",
+                "formattedUrl": "www.jshqjt.com/ow-admin/login.asp",
+                "htmlFormattedUrl": "www.jshqjt.com/ow-admin/login.asp"
+            }
+        ]
+    },
+    {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://www.epacktech.com/admin-JQACCJVVGXIPJRQR/login/login.php",
+                    "searchTerms": "inurl:https://www.epacktech.com/admin-JQACCJVVGXIPJRQR/login/login.php",
+                    "count": 10,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "searchInformation": {
+            "searchTime": 0.37368,
+            "formattedSearchTime": "0.37",
+            "totalResults": "0",
+            "formattedTotalResults": "0"
+        }
+    },
+    {
+        "kind": "customsearch#search",
+        "url": {
+            "type": "application/json",
+            "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+        },
+        "queries": {
+            "request": [
+                {
+                    "title": "Google Custom Search - inurl:https://www.ups.com/lasso/login",
+                    "totalResults": "7",
+                    "searchTerms": "inurl:https://www.ups.com/lasso/login",
+                    "count": 7,
+                    "startIndex": 1,
+                    "inputEncoding": "utf8",
+                    "outputEncoding": "utf8",
+                    "safe": "off",
+                    "cx": "16dd5cf3c2ee84fc7"
+                }
+            ]
+        },
+        "context": {
+            "title": "UrlScan"
+        },
+        "searchInformation": {
+            "searchTime": 0.675715,
+            "formattedSearchTime": "0.68",
+            "totalResults": "7",
+            "formattedTotalResults": "7"
+        },
+        "items": [
+            {
+                "kind": "customsearch#result",
+                "title": "Login | UPS - United States",
+                "htmlTitle": "Login | UPS - United States",
+                "link": "https://www.ups.com/lasso/login?loc=en_US",
+                "displayLink": "www.ups.com",
+                "snippet": "Log into or sign up for a profile to save addresses, payment methods, and other frequently used information.",
+                "htmlSnippet": "Log into or sign up for a profile to save addresses, payment methods, and other frequently used information.",
+                "cacheId": "2hwwvtPDV_0J",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=en_US",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=en_US",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "US",
+                            "dcsext.pll": "en",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "en_US",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Login | UPS - United Kingdom",
+                "htmlTitle": "Login | UPS - United Kingdom",
+                "link": "https://www.ups.com/lasso/login?loc=en_GB",
+                "displayLink": "www.ups.com",
+                "snippet": "Log into or sign up for a profile to save addresses, payment methods, and other frequently used information.",
+                "htmlSnippet": "Log into or sign up for a profile to save addresses, payment methods, and other frequently used information.",
+                "cacheId": "Z3K6iumrmE4J",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=en_GB",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=en_GB",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "GB",
+                            "dcsext.pll": "en",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "en_GB",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Log in | UPS - Canada",
+                "htmlTitle": "Log in | UPS - Canada",
+                "link": "https://www.ups.com/lasso/login?loc=en_CA",
+                "displayLink": "www.ups.com",
+                "snippet": "Log in and use your ups.com ID to order supplies, manage payment options and more.",
+                "htmlSnippet": "Log in and use your ups.com ID to order supplies, manage payment options and more.",
+                "cacheId": "_9eBoVmUt1UJ",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=en_CA",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=en_CA",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "CA",
+                            "dcsext.pll": "en",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "en_CA",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Accesso | UPS - Italia",
+                "htmlTitle": "Accesso | UPS - Italia",
+                "link": "https://www.ups.com/lasso/login?loc=it_IT",
+                "displayLink": "www.ups.com",
+                "snippet": "Accedere e utilizzare il proprio ID ups.com per ordinare forniture, gestire le modalità di pagamento e altro ancora.",
+                "htmlSnippet": "Accedere e utilizzare il proprio ID ups.com per ordinare forniture, gestire le modalità di pagamento e altro ancora.",
+                "cacheId": "9VShArZf1k4J",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=it_IT",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=it_IT",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "IT",
+                            "dcsext.pll": "it",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "it_IT",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Anmelden | UPS - Deutschland",
+                "htmlTitle": "Anmelden | UPS - Deutschland",
+                "link": "https://www.ups.com/lasso/login?loc=de_DE",
+                "displayLink": "www.ups.com",
+                "snippet": "Melden Sie sich an und verwenden Sie Ihre ups.com-ID, um Leistungen zu bestellen, Zahlungen zu verwalten und vieles mehr.",
+                "htmlSnippet": "Melden Sie sich an und verwenden Sie Ihre ups.com-ID, um Leistungen zu bestellen, Zahlungen zu verwalten und vieles mehr.",
+                "cacheId": "oMUG7Msx-78J",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=de_DE",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=de_DE",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "DE",
+                            "dcsext.pll": "de",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "de_DE",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Fazer logon | UPS - Brasil",
+                "htmlTitle": "Fazer logon | UPS - Brasil",
+                "link": "https://www.ups.com/lasso/login?loc=pt_BR",
+                "displayLink": "www.ups.com",
+                "snippet": "Faça logon e use o seu ID do ups.com para solicitar materiais, gerenciar opções de pagamento e muito mais.",
+                "htmlSnippet": "Faça logon e use o seu ID do ups.com para solicitar materiais, gerenciar opções de pagamento e muito mais.",
+                "cacheId": "uoX7_9xX_SsJ",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=pt_BR",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=pt_BR",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "BR",
+                            "dcsext.pll": "pt",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "pt_BR",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "customsearch#result",
+                "title": "Logga in | UPS - Sverige",
+                "htmlTitle": "Logga in | UPS - Sverige",
+                "link": "https://www.ups.com/lasso/login?loc=sv_SE",
+                "displayLink": "www.ups.com",
+                "snippet": "Logga in och använd ditt ups.com-id för att beställa materiel, hantera betalningsalternativ och mycket annat.",
+                "htmlSnippet": "Logga in och använd ditt ups.com-id för att beställa materiel, hantera betalningsalternativ och mycket annat.",
+                "cacheId": "S9_v6KnWzjsJ",
+                "formattedUrl": "https://www.ups.com/lasso/login?loc=sv_SE",
+                "htmlFormattedUrl": "<b>https://www.ups.com/lasso/login</b>?loc=sv_SE",
+                "pagemap": {
+                    "metatags": [
+                        {
+                            "dcsext.pgf_site": "Country",
+                            "dcsext.pcv": "1807",
+                            "dcsext.pcc": "SE",
+                            "dcsext.pll": "sv",
+                            "dcsext.pss": "/styles/V4",
+                            "dcsext.pli": "1",
+                            "dcsext.pps": "0",
+                            "dcsext.psu": "com.ups.LASSO",
+                            "dcsext.pjsv": "1807",
+                            "viewport": "width=device-width, initial-scale=1.0",
+                            "dcsext.ppid": "ct1_reg_log(1ent).html",
+                            "ups-locale": "sv_SE",
+                            "dcsext.pcs": "F",
+                            "dcsext.psa": "Register"
+                        }
+                    ]
+                }
+            }
+        ]
+      }
+      
+]

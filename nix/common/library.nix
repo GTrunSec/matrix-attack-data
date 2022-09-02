@@ -24,7 +24,6 @@ in rec {
       else v.schemas.${arg}.validation
   ) (filterValue "value" attr));
 
-
   toJSON = source:
     (writeConfiguration {
       name = "toJSON";

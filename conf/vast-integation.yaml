@@ -29,7 +29,7 @@ tests:
     - conn
   zeek-imap:
     steps:
-    - command: -N import -s /nix/store/wz1syawc4i2w43818lqjrfnbzjax4wki-zeek-imap.schema
+    - command: -N import -s /nix/store/jhk95j8x56grw0dplhxj1rslz5mdzyh7-zeek-imap.schema
         -t zeek.imap zeek
       input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/imap.log
     - command: '-N export json ''#type == "zeek.imap"'' '
@@ -49,7 +49,7 @@ tests:
     - pop3
   zeek-smtp:
     steps:
-    - command: -N import -s /nix/store/qx537vz6gfqqipziwj7sycbgyk4c3mpp-zeek-smtp.schema
+    - command: -N import -s /nix/store/gbpr7fwzf726f8wxqv29scl7sbqv5y1z-zeek-smtp.schema
         -t zeek.smtp zeek
       input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/smtp.log
     - command: '-N export json ''#type == "zeek.smtp"'' '

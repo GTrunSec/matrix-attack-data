@@ -12,6 +12,9 @@ in {
   trans_depth = "count";
   helo = "string";
   mailfrom = "string";
+  start_time = "time";
+  end_time = "time";
+  duration = "duration";
   rcptto = "list<string>";
   date = "string";
   from = "string";
@@ -21,13 +24,12 @@ in {
   msg_id = "string";
   in_reply_to = "string";
   subject = "string";
-  x_originating_ip = "addr";
   first_received = "string";
   second_received = "string";
-  last_reply = "string";
   path = "list<addr>";
-  user_agent = "string";
+  user_name = "list<string>";
+  service = "list<string>";
+  user_password = "list<string>";
   tls = "bool";
-  fuids = "list<string>";
-  is_webmail = "bool";
+  capabilities = "list<string>";
 }

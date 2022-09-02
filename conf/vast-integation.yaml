@@ -1,9 +1,9 @@
 tests:
   google-phishing-api:
     steps:
-    - command: -N import -s /nix/store/ibxh8lqkzbm235ibcqgj1xygqzsiiyha-google-search-api.schema
+    - command: -N import -s /nix/store/q57vsxkckkkw470mjkzl87bvvzsq15q9-google-phishing-api.schema
         -t google.phishing.api json
-      transformation: jq -ec '.[1]' ./data/google-phishing-api.json
+      transformation: jq -ec '.[0]' ./data/google-phishing-api.json
     - command: '-N export json ''#type == "google.phishing.api"'' '
     tags:
     - schema

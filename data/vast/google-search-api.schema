@@ -15,7 +15,7 @@ type required = record{
         safe: string,
         searchTerms: string,
         startIndex: string,
-        title: string,
+        title: string #index=hash,
     }
 type searchInformation = record{
         formattedSearchTime: string,

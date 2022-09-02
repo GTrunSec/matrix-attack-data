@@ -10,7 +10,7 @@
   queries = {
     required = [
       {
-        title = "string";
+        title = "string #index=hash";
         searchTerms = "string";
         count = "string";
         startIndex = "string";

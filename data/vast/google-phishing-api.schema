@@ -6,5 +6,5 @@ type google.phishing.api = record{
         threatType: string,
     }
 type threat = record{
-        url: string,
+        url: string #index=hash,
     }

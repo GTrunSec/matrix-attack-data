@@ -5,7 +5,7 @@
   threatType = "string";
   platformTyp = "string";
   threat = {
-    url = "string";
+    url = "string #index=hash";
   };
   cacheDuration = "string";
   threatEntryType = "string";

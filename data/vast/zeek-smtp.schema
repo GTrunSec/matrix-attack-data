@@ -1,8 +1,8 @@
 type id = record{
         orig_h: addr,
-        orig_p: count,
+        orig_p: port,
         resp_h: addr,
-        resp_p: count,
+        resp_p: port,
     }
 type zeek.smtp = record{
         _path: string,
@@ -27,8 +27,10 @@ type zeek.smtp = record{
         tls: bool,
         to: list<string>,
         trans_depth: count,
-        ts: time,
+        ts: timestamp,
         uid: string #index=hash,
         user_agent: string,
         x_originating_ip: addr,
     }
+type port = count
+type timestamp = time

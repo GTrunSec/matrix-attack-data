@@ -1,21 +1,21 @@
 type id = record{
         orig_h: addr,
-        orig_p: count,
+        orig_p: port,
         resp_h: addr,
-        resp_p: count,
+        resp_p: port,
     }
 type location_orig = record{
         city: string,
         country_code: string,
-        latitute: count,
-        longitude: string,
+        latitute: real,
+        longitude: real,
         region: string,
     }
 type location_resp = record{
         city: string,
         country_code: string,
-        latitute: count,
-        longitude: count,
+        latitute: real,
+        longitude: real,
         region: string,
     }
 type zeek.pop3 = record{
@@ -50,3 +50,5 @@ type zeek.pop3 = record{
         user_agent: string,
         x_originating_ip: addr,
     }
+type port = count
+type timestamp = time

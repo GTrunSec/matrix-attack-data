@@ -1,8 +1,8 @@
 type id = record{
         orig_h: addr,
-        orig_p: count,
+        orig_p: port,
         resp_h: addr,
-        resp_p: count,
+        resp_p: port,
     }
 type zeek.conn = record{
         _path: string,
@@ -23,7 +23,9 @@ type zeek.conn = record{
         resp_ip_bytes: count,
         resp_pkts: count,
         service: string,
-        ts: time,
+        ts: timestamp,
         tunnel_parents: list<string>,
         uid: string #index=hash,
     }
+type port = count
+type timestamp = time

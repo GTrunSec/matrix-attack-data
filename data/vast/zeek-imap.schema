@@ -1,8 +1,8 @@
 type id = record{
         orig_h: addr,
-        orig_p: count,
+        orig_p: port,
         resp_h: addr,
-        resp_p: count,
+        resp_p: port,
     }
 type zeek.imap = record{
         _path: string,
@@ -34,3 +34,5 @@ type zeek.imap = record{
         user_name: list<string>,
         user_password: list<string>,
     }
+type port = count
+type timestamp = time

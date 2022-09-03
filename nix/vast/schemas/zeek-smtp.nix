@@ -12,5 +12,5 @@ in
       "zeek.smtp" = data [];
       id = data ["id"];
     };
-    fixConfig = {};
+    fixConfig = {} // library.alias.zeek;
   }

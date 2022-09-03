@@ -18,5 +18,5 @@ in
       location_orig = data ["location_orig"];
       location_resp = data ["location_resp"];
     };
-    fixConfig = {};
+    fixConfig = {} // library.alias.zeek;
   }

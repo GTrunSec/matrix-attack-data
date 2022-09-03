@@ -16,7 +16,7 @@ in {
         steps = [
           {
             command = "-N import -s ${cell.schemas.google-search-api} -t google.search.api json";
-            transformation = "jq -ec '.[1]' ./data/API/google-search-api.json";
+            transformation = "jq -ec '.[]' ./data/API/google-search-api.json";
           }
           {
             command = ''-N export json '#type == "google.search.api"' '';
@@ -32,7 +32,7 @@ in {
         steps = [
           {
             command = "-N import -s ${cell.schemas.google-phishing-api} -t google.phishing.api json";
-            transformation = "jq -ec '.[0]' ./data/API/google-phishing-api.json";
+            transformation = "jq -ec '.[]' ./data/API/google-phishing-api.json";
           }
           {
             command = ''-N export json '#type == "google.phishing.api"' '';

@@ -12,5 +12,5 @@ in
       "zeek.imap" = data [];
       id = data ["id"];
     };
-    fixConfig = {};
+    fixConfig = {} // library.alias.zeek;
   }

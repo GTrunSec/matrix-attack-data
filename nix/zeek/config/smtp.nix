@@ -7,7 +7,7 @@ in {
   inherit id;
   _path = "string";
   _write_ts = "time";
-  ts = "time";
+  ts = "timestamp";
   uid = "string #index=hash";
   trans_depth = "count";
   helo = "string";

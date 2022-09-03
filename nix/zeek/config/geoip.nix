@@ -6,14 +6,14 @@
     country_code = "string";
     region = "string";
     city = "string";
-    latitute = "count";
-    longitude = "string";
+    latitute = "real";
+    longitude = "real";
   };
   location_resp = {
     country_code = "string";
     region = "string";
     city = "string";
-    latitute = "count";
-    longitude = "count";
+    latitute = "real";
+    longitude = "real";
   };
 }

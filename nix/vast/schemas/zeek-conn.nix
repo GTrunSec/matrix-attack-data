@@ -12,5 +12,5 @@ in
       "zeek.conn" = data [];
       id = data ["id"];
     };
-    fixConfig = {};
+    fixConfig = {} // library.alias.zeek;
   }

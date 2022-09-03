@@ -14,5 +14,9 @@ in
       required = data ["queries" "required"];
       searchInformation = data ["searchInformation"];
     };
-    fixConfig = {};
+    fixConfig = {
+      ## add your aliases here
+      "inurl.google.search.api" = "google.search.api";
+      "intext.phishing.url.data" = "google.search.api";
+    };
   }

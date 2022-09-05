@@ -27,3 +27,5 @@ type url = record{
         template: string,
         type: string,
     }
+type intext.google.search.api = google.search.api
+type inurl.google.search.api = google.search.api

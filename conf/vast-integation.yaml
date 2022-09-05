@@ -10,7 +10,7 @@ tests:
     - json
   google-search-api:
     steps:
-    - command: -N import -s /nix/store/dam2y4935jwka511c0wyqb0awir2q1z2-google-search-api.schema
+    - command: -N import -s /nix/store/kvb9b67v7imd37balaqcrhzm2l0wvs6f-google-search-api.schema
         -t google.search.api json
       transformation: jq -ec '.[]' ./data/API/google-search-api.json
     - command: '-N export json ''#type == "google.search.api"'' '

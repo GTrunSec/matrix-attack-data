@@ -10,25 +10,26 @@
     std.growOn {
       inherit inputs;
       cellsFrom = ./nix;
-      organelles = [
-        (std.installables "packages")
 
-        (std.functions "devshellProfiles")
-        (std.devshells "devshells")
+      cellBlocks = [
+        (std.blockTypes.installables "packages")
 
-        (std.runnables "entrypoints")
+        (std.blockTypes.functions "devshellProfiles")
+        (std.blockTypes.devshells "devshells")
 
-        (std.functions "library")
+        (std.blockTypes.runnables "entrypoints")
 
-        (std.functions "packages")
+        (std.blockTypes.functions "library")
 
-        (std.data "config")
+        (std.blockTypes.functions "packages")
 
-        (std.data "jsonschemas")
+        (std.blockTypes.data "config")
 
-        (std.files "schemas")
+        (std.blockTypes.data "jsonschemas")
 
-        (std.nixago "nixago")
+        (std.blockTypes.files "schemas")
+
+        (std.blockTypes.nixago "nixago")
       ];
     } {
       devShells = inputs.std.harvest inputs.self ["main" "devshells"];

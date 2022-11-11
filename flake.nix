@@ -19,7 +19,7 @@
 
         (std.blockTypes.runnables "entrypoints")
 
-        (std.blockTypes.functions "library")
+        (std.blockTypes.functions "lib")
 
         (std.blockTypes.functions "packages")
 
@@ -32,6 +32,6 @@
         (std.blockTypes.nixago "nixago")
       ];
     } {
-      devShells = inputs.std.harvest inputs.self ["main" "devshells"];
+      devShells = inputs.std.harvest inputs.self ["_automation" "devshells"];
     };
 }

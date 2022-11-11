@@ -2,9 +2,19 @@
   inputs,
   cell,
 }: let
+  inherit (inputs) std self;
+  inherit (inputs.cells-lab.common.lib) callFlake;
+
   l = inputs.nixpkgs.lib // builtins;
-  inherit (inputs.cells-lab._writers.library) writeConfiguration;
+
+  __inputs__ = callFlake "${(std.incl self ["lock"])}/lock" {
+    nixpkgs.locked = inputs.nixpkgs-lock.sourceInfo;
+    # add channel follows
+    POP.nixpkgs.follows = "nixpkgs";
+  };
 in rec {
+  inherit __inputs__ l;
+
   filterValue = v': attrsSet: let
     checkValue = val: l.isAttrs val && l.hasAttr v' val && val != "object";
   in
@@ -23,13 +33,4 @@ in rec {
       }
       else v.schemas.${arg}.validation
   ) (filterValue "value" attr));
-
-  toJSON = source:
-    (writeConfiguration {
-      name = "toJSON";
-      format = "json";
-      language = "nix";
-      inherit source;
-    })
-    .data;
 }

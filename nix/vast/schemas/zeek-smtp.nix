@@ -2,15 +2,15 @@
   inputs,
   cell,
 }: let
-  inherit (inputs.cells.main.library) __inputs__ l;
-  inherit (__inputs__.vast2nix.schemas) library;
+  inherit (inputs.cells.common.lib) __inputs__ l;
+  inherit (__inputs__.vast2nix.schemas) lib;
 
-  data = v: cell.library.mapAttrsToString (l.getAttrFromPath v (inputs.cells.zeek.config.smtp));
+  data = v: cell.lib.mapAttrsToString (l.getAttrFromPath v (inputs.cells.zeek.config.smtp));
 in
-  library.writeVastSchema "zeek-smtp.schema" {
+  lib.writeVastSchema "zeek-smtp.schema" {
     config = {
       "zeek.smtp" = data [];
       id = data ["id"];
     };
-    fixConfig = {} // library.alias.zeek;
+    fixConfig = {} // lib.alias.zeek;
   }

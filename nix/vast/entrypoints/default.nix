@@ -2,9 +2,9 @@
   inputs,
   cell,
 }: let
-  inherit (inputs.cells-lab._writers.library) writeShellApplication;
+  inherit (inputs.cells-lab._writers.lib) writeShellApplication;
   inherit (inputs) nixpkgs;
-  inherit (inputs.cells.main.library.__inputs__) vast2nix;
+  inherit (inputs.cells.common.lib.__inputs__) vast2nix;
 in {
   check = writeShellApplication {
     name = "check-vast-data";

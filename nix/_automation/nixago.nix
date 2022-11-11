@@ -4,13 +4,13 @@
 }: let
   inherit (inputs) std;
 in {
-  mdbook = std.std.nixago.mdbook {
+  mdbook = std.presets.nixago.mdbook {
     configData = {
       book.title = "Martix Of attack data";
     };
   };
 
-  treefmt = std.std.nixago.treefmt {
+  treefmt = std.presets.nixago.treefmt {
     configData.formatter.nix = {
       excludes = [
         "generated.nix"
@@ -20,6 +20,7 @@ in {
       excludes = [
         "conf/*"
         "data/*"
+        "generated.json"
       ];
     };
   };

@@ -3,7 +3,7 @@
   cell,
 }: let
   inherit (inputs) std self nixpkgs;
-  inherit (inputs.cells.main.library) l;
+  inherit (inputs.cells.common.lib) l;
 
   genAttrs = l.listToAttrs (map (attr: let
     type = l.replaceStrings ["-"] ["."] attr;

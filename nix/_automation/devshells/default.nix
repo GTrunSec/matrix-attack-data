@@ -5,11 +5,11 @@
   l = nixpkgs.lib // builtins;
   inherit (inputs) nixpkgs std;
 in
-  l.mapAttrs (_: std.std.lib.mkShell) {
+  l.mapAttrs (_: std.lib.dev.mkShell) {
     default = {...}: {
       name = "default: Matrix Of Attack Data";
       imports = [
-        inputs.cells-lab.main.devshellProfiles.default
+        inputs.cells-lab._automation.devshellProfiles.default
       ];
 
       nixago = [cell.nixago.mdbook cell.nixago.treefmt] ++ l.attrValues inputs.cells.vast.nixago;

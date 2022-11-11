@@ -1,7 +1,7 @@
 tests:
   google-phishing-api:
     steps:
-    - command: -N import -s /nix/store/jqj3k8bvfdxwh7mb4ghkny030zsrp7ra-google-phishing-api.schema
+    - command: -N import -s /nix/store/49dndlm377p5vhdgwsqijj1x1cgx45q1-google-phishing-api.schema
         -t google.phishing.api json
       transformation: jq -ec '.[]' ./data/API/google-phishing-api.json
     - command: '-N export json ''#type == "google.phishing.api"'' '
@@ -10,7 +10,7 @@ tests:
     - json
   google-search-api:
     steps:
-    - command: -N import -s /nix/store/kvb9b67v7imd37balaqcrhzm2l0wvs6f-google-search-api.schema
+    - command: -N import -s /nix/store/chnpic8fbckjppl6rxf1g2vhmdk3h6i6-google-search-api.schema
         -t google.search.api json
       transformation: jq -ec '.[]' ./data/API/google-search-api.json
     - command: '-N export json ''#type == "google.search.api"'' '
@@ -19,9 +19,9 @@ tests:
     - json
   zeek-conn:
     steps:
-    - command: -N import -s /nix/store/44rflvvcjmr17wawvy3qcf6nl46qxqk0-zeek-conn.schema
+    - command: -N import -s /nix/store/07d4h0q37kvxi8vhn8dxam5bhk95dyq6-zeek-conn.schema
         -t zeek.conn zeek
-      input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/conn.log
+      input: /nix/store/yaggsmjwg8gyvbklx4sgfqfvhf5n50b2-incl/data/zeek/conn.log
     - command: '-N export json ''#type == "zeek.conn"'' '
     tags:
     - schema
@@ -29,9 +29,9 @@ tests:
     - conn
   zeek-imap:
     steps:
-    - command: -N import -s /nix/store/kxg7njyvqqcq669yrmiw91bdic8xivm2-zeek-imap.schema
+    - command: -N import -s /nix/store/pr0a3yyq4dxl7mp31csh3akghhf7s98g-zeek-imap.schema
         -t zeek.imap zeek
-      input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/imap.log
+      input: /nix/store/yaggsmjwg8gyvbklx4sgfqfvhf5n50b2-incl/data/zeek/imap.log
     - command: '-N export json ''#type == "zeek.imap"'' '
     tags:
     - schema
@@ -39,9 +39,9 @@ tests:
     - imap
   zeek-pop3:
     steps:
-    - command: -N import -s /nix/store/19ckd5is7dai2jcvz1j27kh7vrcdkkvm-zeek-pop3.schema
+    - command: -N import -s /nix/store/5bq6hwg3nib46xz0gxg9wnv40hy4gxd0-zeek-pop3.schema
         -t zeek.pop3 zeek
-      input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/pop3.log
+      input: /nix/store/yaggsmjwg8gyvbklx4sgfqfvhf5n50b2-incl/data/zeek/pop3.log
     - command: '-N export json ''#type == "zeek.pop3"'' '
     tags:
     - schema
@@ -49,9 +49,9 @@ tests:
     - pop3
   zeek-smtp:
     steps:
-    - command: -N import -s /nix/store/2x35qwi60alj1xizbq2acxmraa5wkzzi-zeek-smtp.schema
+    - command: -N import -s /nix/store/ii1xh05byf4c5cz70y6nlzvnn7lfdvf6-zeek-smtp.schema
         -t zeek.smtp zeek
-      input: /nix/store/pxgiw2z1ia4snf0i42zxfjbjsgnnvlww-incl/data/zeek/smtp.log
+      input: /nix/store/yaggsmjwg8gyvbklx4sgfqfvhf5n50b2-incl/data/zeek/smtp.log
     - command: '-N export json ''#type == "zeek.smtp"'' '
     tags:
     - schema

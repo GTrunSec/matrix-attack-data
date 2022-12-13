@@ -1,0 +1,101 @@
+{
+  "$id": "phishing-url-result",
+  "$schema": "phishing-url-result-schema",
+  "description": "A phishing Url result schema",
+  "properties": {
+    "abnormal_url": {
+      "type": "integer"
+    },
+    "age_of_domain": {
+      "type": "integer"
+    },
+    "alexa_rank": {
+      "type": "integer"
+    },
+    "dns_record": {
+      "type": "integer"
+    },
+    "domain_registeration_date": {
+      "type": "integer"
+    },
+    "double_slash_redirecting": {
+      "type": "integer"
+    },
+    "favicon": {
+      "type": "integer"
+    },
+    "google_phishing_api": {
+      "type": "integer"
+    },
+    "google_search_api": {
+      "type": "integer"
+    },
+    "having_ip_address": {
+      "type": "integer"
+    },
+    "having_pound_sign": {
+      "type": "integer"
+    },
+    "having_special_symbols": {
+      "type": "integer"
+    },
+    "having_sub_domain": {
+      "type": "integer"
+    },
+    "https_token": {
+      "type": "integer"
+    },
+    "iframe": {
+      "type": "integer"
+    },
+    "links_in_tags": {
+      "type": "integer"
+    },
+    "on_mouseover": {
+      "type": "integer"
+    },
+    "popup_widnow": {
+      "type": "integer"
+    },
+    "port": {
+      "type": "integer"
+    },
+    "prefix_suffix": {
+      "type": "integer"
+    },
+    "redirect": {
+      "type": "integer"
+    },
+    "request_url": {
+      "type": "integer"
+    },
+    "right_click": {
+      "type": "integer"
+    },
+    "server_form_handle": {
+      "type": "integer"
+    },
+    "shortening_service": {
+      "type": "integer"
+    },
+    "ssl_final_state": {
+      "type": "integer"
+    },
+    "starts_with_dot": {
+      "type": "integer"
+    },
+    "statistical_report": {
+      "type": "integer"
+    },
+    "submitting_to_email": {
+      "type": "integer"
+    },
+    "url_length": {
+      "type": "integer"
+    },
+    "url_of_anchor": {
+      "type": "integer"
+    }
+  },
+  "type": "object"
+}

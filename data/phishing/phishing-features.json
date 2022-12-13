@@ -1,0 +1,828 @@
+{
+  "abnormal_url": {
+    "description": "Whether URL contains host name or not. {0, 1}",
+    "schemas": {
+      "data": {
+        "example": [
+          "host_1",
+          "host2"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "The Host Is Found → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "age_of_domain": {
+    "description": "Websites that have been online for less than a year could be risky,\nas opposed to long established legitimate websites. Websites have been\nclassified into two classes, based on whether their age was less than\nor equal to 6 months, or whether it was more than six months.\nMost short-lived phishing websites would thus be placed in the first class.\n",
+    "schemas": {
+      "data": {
+        "example": "2003-10-11T22:14:15.003Z",
+        "validation": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": ">= otherwise",
+          "1": " 1 day > age ≤ 3 months",
+          "−1": "3 months > age ≤ 1 year"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "alexa_rank": {
+    "description": "Legitimate websites often have high traffic as they are visited regularly,\nbut most short-lived phishing websites are low-ranked and do not attract many visitors.\nThe Alexa Ranks of websits have been used to evaluate this parameter,\nwhich are computed taking into consideration daily unique visitors and page views\nover a time period of 3 months [28]. Legitimate websites generally have ranks less than or equal to 150,000\n",
+    "schemas": {
+      "data": {
+        "example": 15000,
+        "validation": {
+          "type": "integer"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if Alexa Rank <= 150, 000",
+          "0": "if Alexa Rank >= 150, 000",
+          "1": "otherwise (no data available)"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    },
+    "zeek": true
+  },
+  "dns_record": {
+    "description": "Whether there is DNS record for the domain or not. {-1, 1}\nFor phishing websites, either the claimed identity is not recognized by the WHOIS database\nor no records founded for the hostname (Pan and Ding 2006). If the DNS record is empty or not\nfound then the website is classified as “Phishing”, otherwise it is classified as “Legitimate”.\n",
+    "schemas": {
+      "data": {
+        "example": {
+          "a": [
+            "192.185.98.9"
+          ],
+          "cname": [
+            "www.google.com"
+          ],
+          "master_a": [
+            "192.185.98.9"
+          ],
+          "master_cname": [
+            "www.google.com"
+          ],
+          "master_mx": [
+            "aspmx.l.google.com",
+            "alt1.aspmx.l.google.com",
+            "alt2.aspmx.l.google.com",
+            "alt3.aspmx.l.google.com",
+            "alt4.aspmx.l.google.com"
+          ],
+          "master_ns": [
+            "ns1.google.com",
+            "ns2.google.com"
+          ],
+          "master_txt": [
+            "v=spf1 include:_spf.google.com ~all"
+          ],
+          "mx": [
+            "aspmx.l.google.com",
+            "alt1.aspmx.l.google.com",
+            "alt2.aspmx.l.google.com",
+            "alt3.aspmx.l.google.com",
+            "alt4.aspmx.l.google.com"
+          ],
+          "ns": [
+            "ns1.google.com",
+            "ns2.google.com"
+          ],
+          "txt": [
+            "v=spf1 include:_spf.google.com ~all"
+          ]
+        },
+        "validation": {
+          "properties": {
+            "a": {
+              "type": "array"
+            },
+            "cname": {
+              "type": "array"
+            },
+            "master_a": {
+              "type": "array"
+            },
+            "master_cname": {
+              "type": "array"
+            },
+            "master_mx": {
+              "type": "array"
+            },
+            "master_ns": {
+              "type": "array"
+            },
+            "master_txt": {
+              "type": "array"
+            },
+            "mx": {
+              "type": "array"
+            },
+            "ns": {
+              "type": "array"
+            },
+            "txt": {
+              "type": "array"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "found",
+          "1": "None"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    },
+    "zeek": true
+  },
+  "domain_registeration_date": {
+    "description": "Whether domain expires in less than a year or not. {-1, 1}",
+    "schemas": {
+      "data": {
+        "example": "2003-10-11T22:14:15.003Z",
+        "validation": {
+          "format": "date-time",
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "Domains Expires on ≤ 1 year → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "double_slash_redirecting": {
+    "description": "https://www.virtuesecurity.com/kb/url-redirection-attack-and-defense/\n\nDouble slash or \"//\" indicates that the user or the user will be redirected to another site.\nThe position of the use of double slash usually appears at the sixth position as written at\nthis link http://amikom.ac.id. However, if the double slash appears in the seventh\nposition as https://amikom.ac.id it can be suspected as a phishing site.\n",
+    "schemas": {
+      "data": {
+        "example": "redirected url",
+        "validation": {
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "Otherwise → Legitimate",
+          "1": "The Position of the Last Occurrence of '//' in the URL"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "favicon": {
+    "description": "Whether favicon is loaded from external domain or not. {-1, 1}\n\nFavicon is an image used as an icon on a website, favicon also indicates the identity of\nthe website. However, if the favicon is displayed apart in the address bar, it can be\nsuspected that the website is a phishing website.\n",
+    "schemas": {
+      "data": {
+        "example": false,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "Otherwise → Legitimae",
+          "1": "Favicon Loaded From External Domain -> phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "google_phishing_api": {
+    "description": "Host founds in Google Phishing IPs or domains or not. {-1, 1}",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "found phishing url/ip"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "google_search_api": {
+    "description": "Google API information\n",
+    "schemas": {
+      "data": {
+        "example": {
+          "index": 0,
+          "links_pointing_to_page": 0
+        },
+        "validation": {
+          "properties": {
+            "index": {
+              "type": "integer"
+            },
+            "links_to_page": {
+              "type": "integer"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "index": "0 =  >= 3\n-1 =  >1 result < 3\n1 =  < 1\n",
+          "links_pointing_to_page": "0 = \"0> <=2\";\n1 = \"> 2\";\n-1 = \"==0\";\n"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "having_ip_address": {
+    "description": "This is generally an indicator of attempts to collect personal data,\nas many phishing websites employ this trick. All the websites employing\nthis trick present in the dataset are associated with phishing websites.\n\nIf the IP address is used as the domain of the URL, such as\nhttp://125.98.2.142/contoh.html, it can be suspected that attempts to steal information.\nThe IP address can also be converted into hexadecimal code.\n",
+    "schemas": {
+      "data": {
+        "example": false,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "if IP address is present, or domain Part has an IP Address → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "having_pound_sign": {
+    "description": "Mail address founds in url or domains or not. {0, 1}",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "found mail address url/ip"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "having_special_symbols": {
+    "description": "having [`@` `~` `-`] symbols in url",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "having_sub_domain": {
+    "description": "https://stackoverflow.com/questions/57796854/find-count-of-domains-and-subdomains-in-the-list-of-strings-using-python\nWhether count of sub domains in URL is legitimate, suspicious or phishing\n\n- https://www.tripwire.com/state-of-security/security-data-protection/phishers-using-redirector-sites-with-custom-subdomains-for-evasion/\n\nThe domain name may have a code for each country (cc TLD) such as \"id\", or for an\nacademic educational institution \"ac\" and combined \"ac.id\" or also called two-level\ndomain (SLD). Stages for extracting the feature of the first to do is remove the \"www\"\nin the URL and remove cc DTL if any. Then calculate the remaining dots, if the number\nof points is greater than one, then the URL can be classified as \"suspect\" because of\nonly the subdomain. However, if the number of points greater than the two it will be\ncategorized as a phishing because it has several subdomains, and sites categorized as\nlegitimate if it does not have a subdomain\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "part_1",
+          "part_2",
+          "part_3"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "Dots In Domain Part = 2 → Suspicious",
+          "0": "Dots In Domain Part = 1 → Legitimate",
+          "1": "Otherwise → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "https_token": {
+    "description": "Whether https token is part of domain or not.\n\nIn general, the https token can be added by phisher on the domain URL and has the\nobjective to distract the user like at http://https-www-amikom-coolest-college.com/\n",
+    "schemas": {
+      "data": {
+        "example": false,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "Using HTTP Token in Domain Part of The URL → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "iframe": {
+    "description": "https://blog.bitsrc.io/4-security-concerns-with-iframes-every-web-developer-should-know-24c73e6a33e4\nWhether page contains iframe tag or not. {-1, 1}\n",
+    "example": "\"\"\"\n{\ndata = ''\n<iframe src=’https://www.infosecinstitute.com/’ width=’1′ height=’1′ style=’visibility: hidden;’></iframe>\n''\n};\n\"\"\"\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "<iframe src=’https://www.infosecinstitute.com/’ width=’1′ height=’1′ style=’visibility: hidden;’></iframe>"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "links_in_tags": {
+    "description": "Whether percentage of links in meta, script, link tags referencing external\ndomain falls in legitimate, suspicious or phishy category. {-1, 0, 1}\n\nIn general, legal sites also use <meta> tag, the <script> tag and <link> tag. And the tag\ncomes from the same domain.\n",
+    "schemas": {
+      "data": {
+        "example": {
+          "link": [
+            "<links>"
+          ],
+          "meta": [
+            "<links>"
+          ],
+          "script": [
+            "<links>"
+          ]
+        },
+        "validation": {
+          "properties": {
+            "link": {
+              "type": "array"
+            },
+            "meta": {
+              "type": "array"
+            },
+            "script": {
+              "type": "array"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "links ≥ 17% And ≤ 81% → Suspicious",
+          "0": "Links in <Meta>, <Script> and  <Link> < 17% → Legitimate",
+          "1": "Otherwise → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "on_mouseover": {
+    "description": "Whether onMouseOver changes status bar or not. {-1, 1}",
+    "schemas": {
+      "data": {
+        "example": [
+          "<changed status>"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "popup_widnow": {
+    "description": "Whether pop up window contain text field or not.\nAuthenticated websites do not ask users to enter confidential information in the form of pop up windows.\n\nIt is unusual to find a legitimate website asking users to submit their personal information\nthrough a pop-up window. On the other hand, this feature has been used in some legitimate websites and its main goal is to warn users about fraudulent activities or broadcast a welcome announcement, though no personal information was asked to be filled in through these pop-up windows.\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "<event_string_1>",
+          "<event_string_2>"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "otherwise",
+          "1": "found value"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "port": {
+    "description": "Whether port is of preferred status or not. {-1, 1}\n\nPort used to validate certain services such as HTTP. The use of a firewall, proxy, and\nNetwork Address Translation or NAT can perform automatic blocking and can be\nopened in accordance with the wishes. But if all the ports are opened, then the phisher\nwill find loopholes and enable any desired services such as stealing information.\n",
+    "schemas": {
+      "data": {
+        "example": false,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "Otherwise -> Legitimate",
+          "1": "Port is of the Preferred Status → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "prefix_suffix": {
+    "description": "Whether URL contains prefix or suffix separated by '-'\n\nRarely a legitimate URL using symbols dashboard, but phisher will add a prefix or\nsuffix to be separated by (-) in the domain name, so the user will think to have a\nlegitimate access to sites such as http://www.amikom-keren.com.\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "amikom",
+          "keren"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "Otherwise → Legitimate",
+          "1": "Domain Name Part Includes (−) symbol -> phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "redirect": {
+    "description": "https://www.getastra.com/blog/911/malicious-multiple-redirection-king-of-traffic-distribution/\nWhether URL redirects less than equal to 1, between 2 and 4 or greater than 4. {0, 1}\nOn the website is legitimate, then the identity of the website will be contained in the\nURL.\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "redirected links"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "The Host Name Is Not Included In URL → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "request_url": {
+    "description": "This feature caculates the percentage of obects, such as videos,\nand images are loaded from a domain other than the one typed in the URL address bar.\n\nOn the website is legal, website addresses, pictures, videos, and sounds contained on the\nweb page with the same domain and does not take away from another domain.\n",
+    "schemas": {
+      "data": {
+        "example": "22%",
+        "validation": {
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if 22% ≤ Request URL ≤ 61%",
+          "0": "if Request URL < 22%",
+          "1": "otherwise"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "right_click": {
+    "description": "Whether right click is disabled or not. {-1, 1}",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "server_form_handle": {
+    "description": "When information is entered into a legitimate website,\nthe information is processed from the same domain from where the website is loaded.\nPhishers resort to either transferring data to a different domain or leave the server form handle empty,\nand both of these options are identified separately from the one used by legitimate websites.\n",
+    "schemas": {
+      "data": {
+        "example": [
+          "SFH"
+        ],
+        "validation": {
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if redirects to a different domain → Suspicious",
+          "0": "otherwise (information is processed from same domain) -> Legitimate",
+          "1": "if 'about:blank' or empty → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "shortening_service": {
+    "description": "Whehter usu the https://zapier.com/blog/best-url-shorteners/ service\n\nURL shortening is a method in which a URL is made to be shorter, which this domain\nwill connect to the web page that has a URL that is longer such, http://sekolah.ini.ac.id/\nURLs can be shortened to \"bit.ly/21FXWl5\",\n",
+    "schemas": {
+      "data": {
+        "example": "<TinyURL>",
+        "validation": {
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "Otherwise → Legitimate",
+          "1": "TinyURL → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "ssl_final_state": {
+    "description": "SSL (Secure Sockets Layer) is amongst the most widely used security protocols today.\nSSL certificates display indicators on typing an address into the status bar,\nsuch as the usage of the HTTPS Protocol, which is more secure and uses port 443 instead\nof port 80 used by HTTP Protocol. However, many phishing websites use fake HTTPS protocols\nto deceive users, and this parameter checks if the protocol is offered by a trusted issuer or not.\n",
+    "schemas": {
+      "data": {
+        "example": [
+          {
+            "certificat": [
+              {
+                "commonName": "www.google.com",
+                "error": "",
+                "issuer": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA",
+                "notAfter": "2020-10-09T12:00:00Z",
+                "notBefore": "2019-10-09T00:00:00Z",
+                "sans": [
+                  "www.google.com",
+                  "google.com"
+                ]
+              }
+            ],
+            "port": "443"
+          }
+        ],
+        "validation": {
+          "items": {
+            "properties": {
+              "certificate": {
+                "items": {
+                  "properties": {
+                    "commonName": {
+                      "type": "string"
+                    },
+                    "error": {
+                      "type": "string"
+                    },
+                    "issuer": {
+                      "type": "string"
+                    },
+                    "notAfter": {
+                      "type": "string"
+                    },
+                    "notBefore": {
+                      "type": "string"
+                    },
+                    "sans": {
+                      "type": "array"
+                    }
+                  },
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "port": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if uses HTTPS is not trusted -> Suspicious",
+          "0": "if uses HTTPS & trusted issuer & age >= 1 year",
+          "1": "otherwise"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "starts_with_dot": {
+    "description": "Whether the url contains `./.` `././.` or not. {0, 1}",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "found string"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "statistical_report": {
+    "description": "Host belongs to top phishing IPs or domains or not. {-1, 1}",
+    "schemas": {
+      "data": {
+        "example": true,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "otherwise",
+          "1": "found phishing url/ip in APIs"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "submitting_to_email": {
+    "description": "Whether the form submits information to email. {-1, 1}\n\nThe official website will generally send personal information to the server for\nprocessing. While the phisher will be sending the information to his personal email, it\ncan be suspected by the use of scripts on the server side functions such as \"mail ()\" and\non the client side will use the mailto\n",
+    "schemas": {
+      "data": {
+        "example": false,
+        "validation": {
+          "type": "boolean"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "0": "otherwise",
+          "1": "Using 'mail()' or 'mailto:' Function to Submit User Information → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "url_length": {
+    "description": "Phishing websites often hide suspicious parts of their URLs at the\nend of long URLs which redirect the information submitted by users\nor redirect the web page itself. A length of 54 characters has been\nsuggested in previous research [27] to separate phishing websites from legitimate ones.\n\nLong URLs can also be suspected of being a phishing site like this one:\nhttp://mencobasitus.com.nr/4c/rea/4b53e4i6f913e51234hfyg46f363r734/?cmd=_home&\ndispatch=1212325vdvtyvwtew5wtetuyuijba5672uh2bi2822gy267gehh74y7@phishing.\nwebsite.html. If the URL length greater than or equal to 54 characters then the URL\nincluded as a phishing site.\n",
+    "schemas": {
+      "data": {
+        "example": 100,
+        "validation": {
+          "type": "integer"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if 54 ≤ URL Length ≤ 75  → suspicious",
+          "0": "if URL Length < 54 → Legitimate",
+          "1": "otherwise → Phishing"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "url_of_anchor": {
+    "description": "This feature refers to the percentage of links within a webpage that\npoint to a different domain name than the one in the address bar.\n\nWhether percentage of url in anchor tags reference external domain or self falls in legitimate,\nsuspicious or phishy category. {-1, 0, 1}\n\nIf the tag is <a> and the website has a different domain name, it can be suspected as\nphishing.\n",
+    "schemas": {
+      "data": {
+        "example": "30%",
+        "validation": {
+          "type": "string"
+        }
+      },
+      "result": {
+        "example": 0,
+        "rule": {
+          "-1": "if 31% ≤ URL Anchor ≤ 67%",
+          "0": "if URL Anchor < 31%",
+          "1": "otherwise"
+        },
+        "validation": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

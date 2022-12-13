@@ -1,0 +1,125 @@
+{
+  "abnormal_url": [
+    "host_1",
+    "host2"
+  ],
+  "age_of_domain": "2003-10-11T22:14:15.003Z",
+  "alexa_rank": 15000,
+  "dns_record": {
+    "a": [
+      "192.185.98.9"
+    ],
+    "cname": [
+      "www.google.com"
+    ],
+    "master_a": [
+      "192.185.98.9"
+    ],
+    "master_cname": [
+      "www.google.com"
+    ],
+    "master_mx": [
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com"
+    ],
+    "master_ns": [
+      "ns1.google.com",
+      "ns2.google.com"
+    ],
+    "master_txt": [
+      "v=spf1 include:_spf.google.com ~all"
+    ],
+    "mx": [
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com"
+    ],
+    "ns": [
+      "ns1.google.com",
+      "ns2.google.com"
+    ],
+    "txt": [
+      "v=spf1 include:_spf.google.com ~all"
+    ]
+  },
+  "domain_registeration_date": "2003-10-11T22:14:15.003Z",
+  "double_slash_redirecting": "redirected url",
+  "favicon": false,
+  "google_phishing_api": true,
+  "google_search_api": {
+    "index": 0,
+    "links_pointing_to_page": 0
+  },
+  "having_ip_address": false,
+  "having_pound_sign": true,
+  "having_special_symbols": true,
+  "having_sub_domain": [
+    "part_1",
+    "part_2",
+    "part_3"
+  ],
+  "https_token": false,
+  "iframe": [
+    "<iframe src=’https://www.infosecinstitute.com/’ width=’1′ height=’1′ style=’visibility: hidden;’></iframe>"
+  ],
+  "links_in_tags": {
+    "link": [
+      "<links>"
+    ],
+    "meta": [
+      "<links>"
+    ],
+    "script": [
+      "<links>"
+    ]
+  },
+  "on_mouseover": [
+    "<changed status>"
+  ],
+  "popup_widnow": [
+    "<event_string_1>",
+    "<event_string_2>"
+  ],
+  "port": false,
+  "prefix_suffix": [
+    "amikom",
+    "keren"
+  ],
+  "redirect": [
+    "redirected links"
+  ],
+  "request_url": "22%",
+  "right_click": true,
+  "server_form_handle": [
+    "SFH"
+  ],
+  "shortening_service": "<TinyURL>",
+  "ssl_final_state": [
+    {
+      "certificat": [
+        {
+          "commonName": "www.google.com",
+          "error": "",
+          "issuer": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA",
+          "notAfter": "2020-10-09T12:00:00Z",
+          "notBefore": "2019-10-09T00:00:00Z",
+          "sans": [
+            "www.google.com",
+            "google.com"
+          ]
+        }
+      ],
+      "port": "443"
+    }
+  ],
+  "starts_with_dot": true,
+  "statistical_report": true,
+  "submitting_to_email": false,
+  "url_length": 100,
+  "url_of_anchor": "30%"
+}

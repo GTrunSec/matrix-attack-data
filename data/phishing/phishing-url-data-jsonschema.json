@@ -1,0 +1,188 @@
+{
+  "$id": "phishing-url-data",
+  "$schema": "phishing-url-data-schema",
+  "description": "A phishing Url Data schema",
+  "properties": {
+    "abnormal_url": {
+      "type": "array"
+    },
+    "age_of_domain": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "alexa_rank": {
+      "type": "integer"
+    },
+    "dns_record": {
+      "properties": {
+        "a": {
+          "type": "array"
+        },
+        "cname": {
+          "type": "array"
+        },
+        "master_a": {
+          "type": "array"
+        },
+        "master_cname": {
+          "type": "array"
+        },
+        "master_mx": {
+          "type": "array"
+        },
+        "master_ns": {
+          "type": "array"
+        },
+        "master_txt": {
+          "type": "array"
+        },
+        "mx": {
+          "type": "array"
+        },
+        "ns": {
+          "type": "array"
+        },
+        "txt": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "domain_registeration_date": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "double_slash_redirecting": {
+      "type": "string"
+    },
+    "favicon": {
+      "type": "boolean"
+    },
+    "google_phishing_api": {
+      "type": "boolean"
+    },
+    "google_search_api": {
+      "properties": {
+        "index": {
+          "type": "integer"
+        },
+        "links_to_page": {
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "having_ip_address": {
+      "type": "boolean"
+    },
+    "having_pound_sign": {
+      "type": "boolean"
+    },
+    "having_special_symbols": {
+      "type": "boolean"
+    },
+    "having_sub_domain": {
+      "type": "array"
+    },
+    "https_token": {
+      "type": "boolean"
+    },
+    "iframe": {
+      "type": "array"
+    },
+    "links_in_tags": {
+      "properties": {
+        "link": {
+          "type": "array"
+        },
+        "meta": {
+          "type": "array"
+        },
+        "script": {
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "on_mouseover": {
+      "type": "array"
+    },
+    "popup_widnow": {
+      "type": "array"
+    },
+    "port": {
+      "type": "boolean"
+    },
+    "prefix_suffix": {
+      "type": "array"
+    },
+    "redirect": {
+      "type": "array"
+    },
+    "request_url": {
+      "type": "string"
+    },
+    "right_click": {
+      "type": "boolean"
+    },
+    "server_form_handle": {
+      "type": "array"
+    },
+    "shortening_service": {
+      "type": "string"
+    },
+    "ssl_final_state": {
+      "items": {
+        "properties": {
+          "certificate": {
+            "items": {
+              "properties": {
+                "commonName": {
+                  "type": "string"
+                },
+                "error": {
+                  "type": "string"
+                },
+                "issuer": {
+                  "type": "string"
+                },
+                "notAfter": {
+                  "type": "string"
+                },
+                "notBefore": {
+                  "type": "string"
+                },
+                "sans": {
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "port": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "starts_with_dot": {
+      "type": "boolean"
+    },
+    "statistical_report": {
+      "type": "boolean"
+    },
+    "submitting_to_email": {
+      "type": "boolean"
+    },
+    "url_length": {
+      "type": "integer"
+    },
+    "url_of_anchor": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

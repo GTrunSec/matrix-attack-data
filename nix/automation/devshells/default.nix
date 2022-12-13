@@ -9,10 +9,10 @@ in
     default = {...}: {
       name = "default: Matrix Of Attack Data";
       imports = [
-        inputs.cells-lab._automation.devshellProfiles.default
+        inputs.cells-lab.automation.devshellProfiles.default
       ];
 
-      nixago = [cell.nixago.mdbook cell.nixago.treefmt] ++ l.attrValues inputs.cells.vast.nixago;
+      nixago = [cell.nixago.mdbook cell.nixago.treefmt];
 
       devshell.startup.cpSchemas = let
         vastSchemas = l.concatStrings (map (a: ''
@@ -37,5 +37,12 @@ in
       nixago = [
         cell.nixago.mdbook
       ];
+    };
+    generator = {
+      name = "generator";
+
+      nixago =
+        l.attrValues inputs.cells.vast.nixago
+        ++ l.attrValues inputs.cells.phishing.lib.nixago;
     };
   }

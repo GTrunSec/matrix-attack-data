@@ -1,8 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    nixpkgs-lock.follows = "nixpkgs";
-
+    nixpkgs.follows = "cells-lab/nixpkgs";
     cells-lab.url = "github:GTrunSec/cells-lab";
     std.follows = "cells-lab/std";
   };
@@ -32,6 +30,6 @@
         (nixago "nixago")
       ];
     } {
-      devShells = inputs.std.harvest inputs.self ["_automation" "devshells"];
+      devShells = inputs.std.harvest inputs.self ["automation" "devshells"];
     };
 }

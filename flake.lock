@@ -23,11 +23,11 @@
         "std": "std"
       },
       "locked": {
-        "lastModified": 1667947745,
-        "narHash": "sha256-bTUmTOnYgvph0Hrkn0dALaa0G8Zmc0tyie690oFg7ZU=",
+        "lastModified": 1670568556,
+        "narHash": "sha256-rd3CBILR8ip+33oyl+IwqbG9rCgNtVc8GqcrubfslnY=",
         "owner": "GTrunSec",
         "repo": "cells-lab",
-        "rev": "7f550faf8a76dcdee4f54eb9d4f007b3fe2577ef",
+        "rev": "d8da6ba0181fdd7fc1452200c3e36534d02d4ca4",
         "type": "github"
       },
       "original": {
@@ -186,6 +186,28 @@
         "type": "github"
       }
     },
+    "incl": {
+      "inputs": {
+        "nixlib": [
+          "cells-lab",
+          "std",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1669263024,
+        "narHash": "sha256-E/+23NKtxAqYG/0ydYgxlgarKnxmDbg6rCMWnOBqn9Q=",
+        "owner": "divnix",
+        "repo": "incl",
+        "rev": "ce7bebaee048e4cd7ebdb4cee7885e00c4e2abca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "divnix",
+        "repo": "incl",
+        "type": "github"
+      }
+    },
     "mdbook-kroki-preprocessor": {
       "flake": false,
       "locked": {
@@ -278,27 +300,27 @@
     },
     "nixos": {
       "locked": {
-        "lastModified": 1667821506,
-        "narHash": "sha256-u4HKBBfTOPpFsGnM7sjS0+F67Hmf2or3uHKNVxXZtiM=",
+        "lastModified": 1670461440,
+        "narHash": "sha256-jy1LB8HOMKGJEGXgzFRLDU1CBGL0/LlkolgnqIsF0D8=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ebf65554b18ee053311f43e5faa5a3f36626c52e",
+        "rev": "04a75b2eecc0acf6239acf9dd04485ff8d14f425",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-22.05",
+        "ref": "nixos-22.11",
         "repo": "nixpkgs",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1665296151,
-        "narHash": "sha256-uOB0oxqxN9K7XGF1hcnY+PQnlQJ+3bP2vCn/+Ru/bbc=",
+        "lastModified": 1670525689,
+        "narHash": "sha256-YIjGzxrRQa5LYO0zlnH/ardcwXsRgsnHe3TkGkvCxbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "14ccaaedd95a488dd7ae142757884d8e125b3363",
+        "rev": "f21f11aa2a02cb78651c6d57546c7d7541f9240c",
         "type": "github"
       },
       "original": {
@@ -320,22 +342,6 @@
       "original": {
         "id": "nixpkgs",
         "type": "indirect"
-      }
-    },
-    "nixpkgs_3": {
-      "locked": {
-        "lastModified": 1668058645,
-        "narHash": "sha256-vHAXeYfKVO6ZbDN0GquEPVFZ42LzlYoX4ZWuKteFzj0=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "d01cb18be494e3d860fcfe6be4ad63614360333c",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
       }
     },
     "nosys": {
@@ -399,8 +405,8 @@
     "root": {
       "inputs": {
         "cells-lab": "cells-lab",
-        "nixpkgs": "nixpkgs_3",
-        "nixpkgs-lock": [
+        "nixpkgs": [
+          "cells-lab",
           "nixpkgs"
         ],
         "std": [
@@ -420,6 +426,7 @@
         "devshell": "devshell",
         "dmerge": "dmerge",
         "flake-utils": "flake-utils_3",
+        "incl": "incl",
         "makes": [
           "cells-lab",
           "std",
@@ -441,11 +448,11 @@
         "yants": "yants"
       },
       "locked": {
-        "lastModified": 1667882600,
-        "narHash": "sha256-dxITQi5siKxrnAlW8A5iJV3Kpu9vgReg23WUD84RW1Y=",
+        "lastModified": 1670364577,
+        "narHash": "sha256-dMIUIOv5WDQY/bHBEoQH/Z2v7qU01CxNB1Uswq8QSnk=",
         "owner": "divnix",
         "repo": "std",
-        "rev": "ea1b908c06276510d18ab3e53b52fff0a0a9c745",
+        "rev": "28ab21483243cb32203bc675bebab8306c466e90",
         "type": "github"
       },
       "original": {

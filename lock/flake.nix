@@ -1,6 +1,8 @@
 {
   inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/f21f11aa2a02cb78651c6d57546c7d7541f9240c";
     vast2nix.url = "github:gtrunsec/vast2nix";
+    vast2nix.inputs.nixpkgs.follows = "nixpkgs";
 
     POP.url = "github:divnix/POP/visibility";
     diagram2nix.url = "github:GTrunSec/diagram2nix";

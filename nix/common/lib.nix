@@ -24,13 +24,13 @@ in rec {
       else v)
     attrsSet;
 
-  toJsonSchema = arg: attr: (builtins.mapAttrs (
+  toJsonSchema = attr: attrsSet: (builtins.mapAttrs (
     n: v:
       if (l.hasAttr "properties" v.schemas.data.validation)
       then {
         type = "object";
-        inherit (v.schemas.${arg}.validation) properties;
+        inherit (v.schemas.${attr}.validation) properties;
       }
-      else v.schemas.${arg}.validation
-  ) (filterValue "value" attr));
+      else v.schemas.${attr}.validation
+  ) (filterValue "value" attrsSet));
 }

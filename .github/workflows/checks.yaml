@@ -25,7 +25,7 @@ jobs:
 
       - name: Check JsonSchema
         run: |
-          nix develop --command std //common/entrypoints/check:run
+          nix develop --command std //phishing/entrypoints/check:run
 
       - name: Check Vast Integration and task
         run: |

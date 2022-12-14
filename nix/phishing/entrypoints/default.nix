@@ -5,7 +5,7 @@
   inherit (inputs.cells-lab.writers.lib) writeShellApplication writeConfig;
   inherit (inputs) nixpkgs;
 
-  data-jsonschema = writeConfig "phishing-url-data-jsonschema.json" cell.jsonschemas.phishing-url-data.jsonschema;
+  data-jsonschema = writeConfig "phishing-url-data-jsonschema.json" cell.jsonschemas.phishing-url-data-jsonschema;
 in {
   check = writeShellApplication {
     name = "check-phihsing-url-data-schema";

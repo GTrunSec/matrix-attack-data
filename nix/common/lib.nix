@@ -7,7 +7,7 @@
 
   l = inputs.nixpkgs.lib // builtins;
 
-  __inputs__ = callFlake "${(std.incl self ["lock"])}/lock" {
+  __inputs__ = callFlake ./lib/lock {
     nixpkgs.locked = inputs.nixpkgs-lock.sourceInfo;
     # add channel follows
     POP.nixpkgs.follows = "nixpkgs";

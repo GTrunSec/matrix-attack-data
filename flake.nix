@@ -22,6 +22,7 @@
         (functions "packages")
 
         (data "config")
+        (files "configFiles")
 
         (data "jsonschemas")
 

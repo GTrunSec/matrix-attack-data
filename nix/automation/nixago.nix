@@ -21,6 +21,7 @@ in {
         "conf/*"
         "data/*"
         "generated.json"
+        "generated_attck_data.json"
       ];
     };
   };

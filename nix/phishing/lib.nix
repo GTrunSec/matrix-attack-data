@@ -12,5 +12,5 @@
           hook.mode = "copy"; # already useful before entering the devshell
         }
     )
-      (cell.config // cell.jsonschemas);
+    (cell.config // cell.jsonschemas);
 }

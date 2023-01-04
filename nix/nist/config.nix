@@ -16,5 +16,5 @@
     l.fromJSON (l.readFile source);
 in {
   inherit __nist_controls__;
-  nist_controls = l.foldl' l.recursiveUpdate {} (map (v: {"${v.created}" = v;}) __nist_controls__.objects);
+  nist_controls = l.foldl' l.recursiveUpdate {} (map (v: {"${v.id}" = v;}) __nist_controls__.objects);
 }

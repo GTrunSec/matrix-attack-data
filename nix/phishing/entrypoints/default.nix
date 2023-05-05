@@ -2,7 +2,7 @@
   inputs,
   cell,
 }: let
-  inherit (inputs.cells-lab.writers.lib) writeShellApplication writeConfig;
+  inherit (inputs.std-ext.writers.lib) writeShellApplication writeConfig;
   inherit (inputs) nixpkgs;
 
   data-jsonschema = writeConfig "phishing-url-data-jsonschema.json" cell.jsonschemas.phishing-url-data-jsonschema;

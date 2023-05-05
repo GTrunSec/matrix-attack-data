@@ -2,18 +2,20 @@
   inputs,
   cell,
 }: let
-  inherit (inputs) std self;
-  inherit (inputs.cells-lab.common.lib) callFlake;
+  inherit (inputs) std flops nixpkgs;
+  inherit (inputs.std-ext.common.lib) callFlake;
 
   l = inputs.nixpkgs.lib // builtins;
 
-  __inputs__ = callFlake ./lib/lock {
-    nixpkgs.locked = inputs.nixpkgs-lock.sourceInfo;
-    # add channel follows
-    POP.nixpkgs.follows = "nixpkgs";
+  callInputs = ((flops.lib.flake.pops.default.setInitInputs ./lib/lock)
+    .setSystem
+    nixpkgs.system)
+  .addInputsOverride {
   };
 in rec {
-  inherit __inputs__ l;
+  inherit callInputs l;
+
+  __inputs__ = callInputs.outputsForInputsCompat;
 
   filterValue = v': attrsSet: let
     checkValue = val: l.isAttrs val && l.hasAttr v' val && val != "object";

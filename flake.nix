@@ -1,8 +1,9 @@
 {
   inputs = {
-    nixpkgs.follows = "cells-lab/nixpkgs";
-    cells-lab.url = "github:GTrunSec/cells-lab";
-    std.follows = "cells-lab/std";
+    nixpkgs.follows = "std-ext/nixpkgs";
+    std-ext.url = "github:GTrunSec/std-ext";
+    std.follows = "std-ext/std";
+    flops.follows = "std-ext/flops";
   };
   outputs = {std, ...} @ inputs:
     std.growOn {

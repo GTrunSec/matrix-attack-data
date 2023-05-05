@@ -9,7 +9,7 @@ in
     default = {...}: {
       name = "default: Matrix Of Attack Data";
       imports = [
-        inputs.cells-lab.automation.devshellProfiles.default
+        inputs.std-ext.automation.devshellProfiles.default
       ];
 
       nixago = [cell.nixago.mdbook cell.nixago.treefmt];

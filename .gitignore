@@ -5,6 +5,7 @@ tmp/
 /.std
 
 # nixago: ignore-linked-files
+/treefmt.toml
 book.toml
 treefmt.toml
 # nixago-auto-created: mdbook-build-folder

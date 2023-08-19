@@ -10,7 +10,7 @@
     std.growOn
       {
         inherit inputs;
-        cellsFrom = ./nix;
+        cellsFrom = ./nix/cells;
 
         cellBlocks = with std.blockTypes; [
           (installables "packages")

@@ -17,8 +17,7 @@ in
     };
     data.formatter.prettier = {
       excludes = [
-        "conf/*"
-        "data/*"
+        "contents/*"
         "generated.json"
         "generated_attck_data.json"
       ];

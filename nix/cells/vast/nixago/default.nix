@@ -5,7 +5,7 @@ in
 builtins.mapAttrs (_: std.lib.dev.mkNixago) {
   vast-integation = {
     data = import ./vast-integation.nix args;
-    output = "conf/vast-integation.yaml";
+    output = "contents/conf/vast-integation.yaml";
     format = "yaml";
     hook.mode = "copy";
   };

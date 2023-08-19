@@ -21,7 +21,7 @@ l.mapAttrs (_: std.lib.dev.mkShell) {
             map
               (a: ''
                 cp -rf --no-preserve=mode,ownership ${a} \
-                $PRJ_ROOT/data/vast/${a.name}
+                $PRJ_ROOT/contents/data/vast/${a.name}
               '')
               (l.attrValues inputs.cells.vast.schemas)
           );

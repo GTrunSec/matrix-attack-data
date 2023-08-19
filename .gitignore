@@ -3,8 +3,9 @@
 tmp/
 
 /.std
-
+/.data
 # nixago: ignore-linked-files
+/book.toml
 /treefmt.toml
 book.toml
 treefmt.toml

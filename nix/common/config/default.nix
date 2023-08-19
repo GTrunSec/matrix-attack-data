@@ -1,4 +1,1 @@
-{
-  inputs,
-  cell,
-} @ args: {}
+{ inputs, cell }@args: { }

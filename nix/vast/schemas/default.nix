@@ -1,7 +1,5 @@
+{ inputs, cell }@args:
 {
-  inputs,
-  cell,
-} @ args: {
   google-search-api = import ./google-search-api.nix args;
   google-phishing-api = import ./google-phishing-api.nix args;
 

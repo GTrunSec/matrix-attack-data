@@ -1,10 +1,9 @@
-{
-  inputs,
-  cell,
-}: let
+{ inputs, cell }:
+let
   inherit (cell) config;
   inherit (inputs.cells.common) lib;
-in {
+in
+{
   phishing-url-data-jsonschema = {
     "$id" = "phishing-url-data";
     "$schema" = "phishing-url-data-schema";
@@ -18,6 +17,8 @@ in {
     "$schema" = "phishing-url-result-schema";
     "description" = "A phishing Url result schema";
     "type" = "object";
-    "properties" = builtins.mapAttrs (n: v: v.schemas.result.validation) cell.config.phishing-features;
+    "properties" =
+      builtins.mapAttrs (n: v: v.schemas.result.validation)
+        cell.config.phishing-features;
   };
 }

@@ -1,7 +1,5 @@
+{ inputs, cell }:
 {
-  inputs,
-  cell,
-}: {
   threatType = "string";
   platformTyp = "string";
   threat = {

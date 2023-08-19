@@ -1,7 +1,5 @@
+{ inputs, cell }:
 {
-  inputs,
-  cell,
-}: {
   inherit (cell.config.conn) id;
   _path = "string";
   _write_ts = "time";

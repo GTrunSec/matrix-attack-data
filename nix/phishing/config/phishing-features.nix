@@ -1,20 +1,20 @@
-{
-  inputs,
-  cell,
-}: let
+{ inputs, cell }:
+let
   inherit (inputs.nixpkgs) lib;
 in
-  builtins.mapAttrs (
+builtins.mapAttrs
+  (
     n: v:
-      lib.recursiveUpdate v {
-        schemas.result = {
-          validation = {
-            type = "integer";
-          };
-          example = 0;
+    lib.recursiveUpdate v {
+      schemas.result = {
+        validation = {
+          type = "integer";
         };
-      }
-  ) {
+        example = 0;
+      };
+    }
+  )
+  {
     having_ip_address = {
       schemas.data = {
         validation.type = "boolean";
@@ -103,7 +103,10 @@ in
     prefix_suffix = {
       schemas.data = {
         validation.type = "array";
-        example = ["amikom" "keren"];
+        example = [
+          "amikom"
+          "keren"
+        ];
       };
       schemas.result.rule = {
         "0" = "Otherwise → Legitimate";
@@ -120,7 +123,11 @@ in
     having_sub_domain = {
       schemas.data = {
         validation.type = "array";
-        example = ["part_1" "part_2" "part_3"];
+        example = [
+          "part_1"
+          "part_2"
+          "part_3"
+        ];
       };
       schemas.result.rule = {
         "0" = "Dots In Domain Part = 1 → Legitimate";
@@ -176,24 +183,20 @@ in
             };
           };
         };
-        example = [
-          {
-            port = "443";
-            certificat = [
-              {
-                issuer = "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA";
-                commonName = "www.google.com";
-                notBefore = "2019-10-09T00:00:00Z";
-                notAfter = "2020-10-09T12:00:00Z";
-                error = "";
-                sans = [
-                  "www.google.com"
-                  "google.com"
-                ];
-              }
+        example = [ {
+          port = "443";
+          certificat = [ {
+            issuer = "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA";
+            commonName = "www.google.com";
+            notBefore = "2019-10-09T00:00:00Z";
+            notAfter = "2020-10-09T12:00:00Z";
+            error = "";
+            sans = [
+              "www.google.com"
+              "google.com"
             ];
-          }
-        ];
+          } ];
+        } ];
       };
       schemas.result.rule = {
         "0" = "if uses HTTPS & trusted issuer & age >= 1 year";
@@ -329,9 +332,9 @@ in
           };
         };
         example = {
-          script = ["<links>"];
-          meta = ["<links>"];
-          link = ["<links>"];
+          script = [ "<links>" ];
+          meta = [ "<links>" ];
+          link = [ "<links>" ];
         };
       };
       schemas.result.rule = {
@@ -350,7 +353,7 @@ in
     server_form_handle = {
       schemas.data = {
         validation.type = "array";
-        example = ["SFH"];
+        example = [ "SFH" ];
       };
       schemas.result.rule = {
         "0" = "otherwise (information is processed from same domain) -> Legitimate";
@@ -385,7 +388,10 @@ in
     abnormal_url = {
       schemas.data = {
         validation.type = "array";
-        example = ["host_1" "host2"];
+        example = [
+          "host_1"
+          "host2"
+        ];
       };
       schemas.result.rule = {
         "0" = "otherwise";
@@ -396,7 +402,7 @@ in
     redirect = {
       schemas.data = {
         validation.type = "array";
-        example = ["redirected links"];
+        example = [ "redirected links" ];
       };
 
       schemas.result.rule = {
@@ -413,7 +419,7 @@ in
     on_mouseover = {
       schemas.data = {
         validation.type = "array";
-        example = ["<changed status>"];
+        example = [ "<changed status>" ];
       };
       description = "Whether onMouseOver changes status bar or not. {-1, 1}";
     };
@@ -428,7 +434,10 @@ in
       schemas.data = {
         # FIXME: string or boolean
         validation.type = "array";
-        example = ["<event_string_1>" "<event_string_2>"];
+        example = [
+          "<event_string_1>"
+          "<event_string_2>"
+        ];
       };
       schemas.result.rule = {
         "-1" = "otherwise";
@@ -445,7 +454,9 @@ in
     iframe = {
       schemas.data = {
         validation.type = "array";
-        example = ["<iframe src=’https://www.infosecinstitute.com/’ width=’1′ height=’1′ style=’visibility: hidden;’></iframe>"];
+        example = [
+          "<iframe src=’https://www.infosecinstitute.com/’ width=’1′ height=’1′ style=’visibility: hidden;’></iframe>"
+        ];
       };
       description = ''
         https://blog.bitsrc.io/4-security-concerns-with-iframes-every-web-developer-should-know-24c73e6a33e4
@@ -504,16 +515,34 @@ in
           };
         };
         example = {
-          master_ns = ["ns1.google.com" "ns2.google.com"];
-          ns = ["ns1.google.com" "ns2.google.com"];
-          master_mx = ["aspmx.l.google.com" "alt1.aspmx.l.google.com" "alt2.aspmx.l.google.com" "alt3.aspmx.l.google.com" "alt4.aspmx.l.google.com"];
-          mx = ["aspmx.l.google.com" "alt1.aspmx.l.google.com" "alt2.aspmx.l.google.com" "alt3.aspmx.l.google.com" "alt4.aspmx.l.google.com"];
-          master_txt = ["v=spf1 include:_spf.google.com ~all"];
-          txt = ["v=spf1 include:_spf.google.com ~all"];
-          master_cname = ["www.google.com"];
-          cname = ["www.google.com"];
-          master_a = ["192.185.98.9"];
-          a = ["192.185.98.9"];
+          master_ns = [
+            "ns1.google.com"
+            "ns2.google.com"
+          ];
+          ns = [
+            "ns1.google.com"
+            "ns2.google.com"
+          ];
+          master_mx = [
+            "aspmx.l.google.com"
+            "alt1.aspmx.l.google.com"
+            "alt2.aspmx.l.google.com"
+            "alt3.aspmx.l.google.com"
+            "alt4.aspmx.l.google.com"
+          ];
+          mx = [
+            "aspmx.l.google.com"
+            "alt1.aspmx.l.google.com"
+            "alt2.aspmx.l.google.com"
+            "alt3.aspmx.l.google.com"
+            "alt4.aspmx.l.google.com"
+          ];
+          master_txt = [ "v=spf1 include:_spf.google.com ~all" ];
+          txt = [ "v=spf1 include:_spf.google.com ~all" ];
+          master_cname = [ "www.google.com" ];
+          cname = [ "www.google.com" ];
+          master_a = [ "192.185.98.9" ];
+          a = [ "192.185.98.9" ];
         };
       };
       schemas.result.rule = {

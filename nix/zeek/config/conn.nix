@@ -1,7 +1,5 @@
+{ inputs, cell }:
 {
-  inputs,
-  cell,
-}: {
   id = {
     orig_h = "addr";
     orig_p = "port";

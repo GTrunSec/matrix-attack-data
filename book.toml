@@ -1,11 +1,1 @@
-[book]
-language = "en"
-multilingual = false
-src = "docs"
-title = "Martix Of attack data"
-
-[build]
-build-dir = "docs/book"
-
-[preprocessor.kroki-preprocessor]
-command = "mdbook-kroki-preprocessor"
+/nix/store/znifpdici0y2jxf2xzihx9c7czfhcpxq-book.toml

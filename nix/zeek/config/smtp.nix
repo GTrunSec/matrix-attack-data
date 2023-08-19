@@ -1,9 +1,8 @@
-{
-  inputs,
-  cell,
-}: let
+{ inputs, cell }:
+let
   inherit (cell.config.conn) id;
-in {
+in
+{
   inherit id;
   _path = "string";
   _write_ts = "time";

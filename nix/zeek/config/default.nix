@@ -1,7 +1,5 @@
+{ inputs, cell }@args:
 {
-  inputs,
-  cell,
-} @ args: {
   conn = import ./conn.nix args;
   smtp = import ./smtp.nix args;
   imap = import ./imap.nix args;

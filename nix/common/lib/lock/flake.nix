@@ -27,7 +27,5 @@
     ocsf.flake = false;
   };
 
-  outputs = {self, ...} @ inputs: {
-    inherit inputs;
-  };
+  outputs = { self, ... }@inputs: { inherit inputs; };
 }

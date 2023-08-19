@@ -1,7 +1,5 @@
+{ inputs, cell }:
 {
-  inputs,
-  cell,
-}: {
   location_orig = {
     country_code = "string";
     region = "string";

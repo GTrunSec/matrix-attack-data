@@ -5,33 +5,41 @@
     std.follows = "std-ext/std";
     flops.follows = "std-ext/flops";
   };
-  outputs = {std, ...} @ inputs:
-    std.growOn {
-      inherit inputs;
-      cellsFrom = ./nix;
+  outputs =
+    { std, ... }@inputs:
+    std.growOn
+      {
+        inherit inputs;
+        cellsFrom = ./nix;
 
-      cellBlocks = with std.blockTypes; [
-        (installables "packages")
+        cellBlocks = with std.blockTypes; [
+          (installables "packages")
 
-        (functions "devshellProfiles")
-        (devshells "devshells")
+          (functions "shellsProfiles")
+          (devshells "shells")
 
-        (runnables "entrypoints")
+          (runnables "entrypoints")
+          (runnables "scripts")
+          (runnables "tasks")
 
-        (functions "lib")
+          (functions "lib")
 
-        (functions "packages")
+          (functions "packages")
 
-        (data "config")
-        (files "configFiles")
+          (data "config")
+          (files "configFiles")
 
-        (data "jsonschemas")
+          (data "jsonschemas")
 
-        (files "schemas")
+          (files "schemas")
 
-        (nixago "nixago")
-      ];
-    } {
-      devShells = inputs.std.harvest inputs.self ["automation" "devshells"];
-    };
+          (nixago "nixago")
+        ];
+      }
+      {
+        devShells = inputs.std.harvest inputs.self [
+          "dev"
+          "devshells"
+        ];
+      };
 }

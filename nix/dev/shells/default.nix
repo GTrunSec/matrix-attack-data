@@ -32,12 +32,10 @@ l.mapAttrs (_: std.lib.dev.mkShell) {
     };
   doc = {
     name = "mkdocs";
-
-    std.adr.enable = false;
-
     imports = [ inputs.std.std.devshellProfiles.default ];
     nixago = [ cell.nixago.mdbook ];
   };
+
   generator = {
     name = "generator";
 

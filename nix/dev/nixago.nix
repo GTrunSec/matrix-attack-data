@@ -5,6 +5,7 @@ let
 in
 {
   mdbook = mkNixago std.lib.cfg.mdbook {
+    hook.mode = "copy";
     data = {
       book.title = "Martix Of attack data";
     };

@@ -39,7 +39,7 @@
       {
         devShells = inputs.std.harvest inputs.self [
           "dev"
-          "devshells"
+          "shells"
         ];
       };
 }

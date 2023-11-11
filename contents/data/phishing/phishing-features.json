@@ -3,10 +3,7 @@
     "description": "Whether URL contains host name or not. {0, 1}",
     "schemas": {
       "data": {
-        "example": [
-          "host_1",
-          "host2"
-        ],
+        "example": ["host_1", "host2"],
         "validation": {
           "type": "array"
         }
@@ -74,18 +71,10 @@
     "schemas": {
       "data": {
         "example": {
-          "a": [
-            "192.185.98.9"
-          ],
-          "cname": [
-            "www.google.com"
-          ],
-          "master_a": [
-            "192.185.98.9"
-          ],
-          "master_cname": [
-            "www.google.com"
-          ],
+          "a": ["192.185.98.9"],
+          "cname": ["www.google.com"],
+          "master_a": ["192.185.98.9"],
+          "master_cname": ["www.google.com"],
           "master_mx": [
             "aspmx.l.google.com",
             "alt1.aspmx.l.google.com",
@@ -93,13 +82,8 @@
             "alt3.aspmx.l.google.com",
             "alt4.aspmx.l.google.com"
           ],
-          "master_ns": [
-            "ns1.google.com",
-            "ns2.google.com"
-          ],
-          "master_txt": [
-            "v=spf1 include:_spf.google.com ~all"
-          ],
+          "master_ns": ["ns1.google.com", "ns2.google.com"],
+          "master_txt": ["v=spf1 include:_spf.google.com ~all"],
           "mx": [
             "aspmx.l.google.com",
             "alt1.aspmx.l.google.com",
@@ -107,13 +91,8 @@
             "alt3.aspmx.l.google.com",
             "alt4.aspmx.l.google.com"
           ],
-          "ns": [
-            "ns1.google.com",
-            "ns2.google.com"
-          ],
-          "txt": [
-            "v=spf1 include:_spf.google.com ~all"
-          ]
+          "ns": ["ns1.google.com", "ns2.google.com"],
+          "txt": ["v=spf1 include:_spf.google.com ~all"]
         },
         "validation": {
           "properties": {
@@ -344,11 +323,7 @@
     "description": "https://stackoverflow.com/questions/57796854/find-count-of-domains-and-subdomains-in-the-list-of-strings-using-python\nWhether count of sub domains in URL is legitimate, suspicious or phishing\n\n- https://www.tripwire.com/state-of-security/security-data-protection/phishers-using-redirector-sites-with-custom-subdomains-for-evasion/\n\nThe domain name may have a code for each country (cc TLD) such as \"id\", or for an\nacademic educational institution \"ac\" and combined \"ac.id\" or also called two-level\ndomain (SLD). Stages for extracting the feature of the first to do is remove the \"www\"\nin the URL and remove cc DTL if any. Then calculate the remaining dots, if the number\nof points is greater than one, then the URL can be classified as \"suspect\" because of\nonly the subdomain. However, if the number of points greater than the two it will be\ncategorized as a phishing because it has several subdomains, and sites categorized as\nlegitimate if it does not have a subdomain\n",
     "schemas": {
       "data": {
-        "example": [
-          "part_1",
-          "part_2",
-          "part_3"
-        ],
+        "example": ["part_1", "part_2", "part_3"],
         "validation": {
           "type": "array"
         }
@@ -412,15 +387,9 @@
     "schemas": {
       "data": {
         "example": {
-          "link": [
-            "<links>"
-          ],
-          "meta": [
-            "<links>"
-          ],
-          "script": [
-            "<links>"
-          ]
+          "link": ["<links>"],
+          "meta": ["<links>"],
+          "script": ["<links>"]
         },
         "validation": {
           "properties": {
@@ -454,9 +423,7 @@
     "description": "Whether onMouseOver changes status bar or not. {-1, 1}",
     "schemas": {
       "data": {
-        "example": [
-          "<changed status>"
-        ],
+        "example": ["<changed status>"],
         "validation": {
           "type": "array"
         }
@@ -473,10 +440,7 @@
     "description": "Whether pop up window contain text field or not.\nAuthenticated websites do not ask users to enter confidential information in the form of pop up windows.\n\nIt is unusual to find a legitimate website asking users to submit their personal information\nthrough a pop-up window. On the other hand, this feature has been used in some legitimate websites and its main goal is to warn users about fraudulent activities or broadcast a welcome announcement, though no personal information was asked to be filled in through these pop-up windows.\n",
     "schemas": {
       "data": {
-        "example": [
-          "<event_string_1>",
-          "<event_string_2>"
-        ],
+        "example": ["<event_string_1>", "<event_string_2>"],
         "validation": {
           "type": "array"
         }
@@ -518,10 +482,7 @@
     "description": "Whether URL contains prefix or suffix separated by '-'\n\nRarely a legitimate URL using symbols dashboard, but phisher will add a prefix or\nsuffix to be separated by (-) in the domain name, so the user will think to have a\nlegitimate access to sites such as http://www.amikom-keren.com.\n",
     "schemas": {
       "data": {
-        "example": [
-          "amikom",
-          "keren"
-        ],
+        "example": ["amikom", "keren"],
         "validation": {
           "type": "array"
         }
@@ -542,9 +503,7 @@
     "description": "https://www.getastra.com/blog/911/malicious-multiple-redirection-king-of-traffic-distribution/\nWhether URL redirects less than equal to 1, between 2 and 4 or greater than 4. {0, 1}\nOn the website is legitimate, then the identity of the website will be contained in the\nURL.\n",
     "schemas": {
       "data": {
-        "example": [
-          "redirected links"
-        ],
+        "example": ["redirected links"],
         "validation": {
           "type": "array"
         }
@@ -604,9 +563,7 @@
     "description": "When information is entered into a legitimate website,\nthe information is processed from the same domain from where the website is loaded.\nPhishers resort to either transferring data to a different domain or leave the server form handle empty,\nand both of these options are identified separately from the one used by legitimate websites.\n",
     "schemas": {
       "data": {
-        "example": [
-          "SFH"
-        ],
+        "example": ["SFH"],
         "validation": {
           "type": "array"
         }
@@ -658,10 +615,7 @@
                 "issuer": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert SHA2 Extended Validation Server CA",
                 "notAfter": "2020-10-09T12:00:00Z",
                 "notBefore": "2019-10-09T00:00:00Z",
-                "sans": [
-                  "www.google.com",
-                  "google.com"
-                ]
+                "sans": ["www.google.com", "google.com"]
               }
             ],
             "port": "443"

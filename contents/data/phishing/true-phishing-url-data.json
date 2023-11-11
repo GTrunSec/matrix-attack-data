@@ -26,9 +26,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "app"
-    ],
+    "having_sub_domain": ["app"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -71,9 +69,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "metas.Admin-Pages.html"
-    ],
+    "abnormal_url": ["metas.Admin-Pages.html"],
     "age_of_domain": "",
     "alexa_rank": 189148,
     "google_phishing_api": true,
@@ -86,9 +82,7 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "54.83.194.254"
-      ],
+      "master_a": ["54.83.194.254"],
       "a": []
     },
     "domain_registeration_date": "",
@@ -101,9 +95,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cuuoilespera"
-    ],
+    "having_sub_domain": ["cuuoilespera"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -172,11 +164,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -219,9 +207,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scuresi1.html"
-    ],
+    "abnormal_url": ["scuresi1.html"],
     "age_of_domain": "",
     "alexa_rank": 189148,
     "google_phishing_api": true,
@@ -234,9 +220,7 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "54.83.194.254"
-      ],
+      "master_a": ["54.83.194.254"],
       "a": []
     },
     "domain_registeration_date": "",
@@ -249,9 +233,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cuuoilespera"
-    ],
+    "having_sub_domain": ["cuuoilespera"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -320,11 +302,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -393,11 +371,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -440,9 +414,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -452,23 +424,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -525,9 +488,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -537,23 +498,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -636,11 +588,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -709,11 +657,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -761,26 +705,16 @@
     "alexa_rank": 0,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "tricia.ns.cloudflare.com.",
-        "duke.ns.cloudflare.com."
-      ],
-      "ns": [
-        "duke.ns.cloudflare.com.",
-        "tricia.ns.cloudflare.com."
-      ],
+      "master_ns": ["tricia.ns.cloudflare.com.", "duke.ns.cloudflare.com."],
+      "ns": ["duke.ns.cloudflare.com.", "tricia.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "13.214.197.141"
-      ],
-      "a": [
-        "13.214.197.141"
-      ]
+      "master_a": ["13.214.197.141"],
+      "a": ["13.214.197.141"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -812,10 +746,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "check",
-      "amazon"
-    ],
+    "prefix_suffix": ["check", "amazon"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -851,10 +782,7 @@
     "alexa_rank": 1334652,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "ns52.worldnic.com.",
-        "ns51.worldnic.com."
-      ],
+      "master_ns": ["ns52.worldnic.com.", "ns51.worldnic.com."],
       "ns": [],
       "master_mx": [],
       "mx": [],
@@ -862,12 +790,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "208.91.197.27"
-      ],
-      "a": [
-        "208.91.197.27"
-      ]
+      "master_a": ["208.91.197.27"],
+      "a": ["208.91.197.27"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -879,9 +803,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "0c0122d"
-    ],
+    "having_sub_domain": ["0c0122d"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [
@@ -906,10 +828,7 @@
     "redirect": [],
     "request_url": "100%",
     "right_click": false,
-    "server_form_handle": [
-      "",
-      "http://0c0122d.wcomhost.com/display.cfm"
-    ],
+    "server_form_handle": ["", "http://0c0122d.wcomhost.com/display.cfm"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -920,9 +839,7 @@
             "ip": "208.91.197.27",
             "issuer": "ZeroSSL ECC Domain Secure Site CA",
             "commonName": "0c0122d.wcomhost.com",
-            "sans": [
-              "0c0122d.wcomhost.com"
-            ],
+            "sans": ["0c0122d.wcomhost.com"],
             "notBefore": "2022-09-03 00:00:00 +0000 UTC",
             "notAfter": "2022-12-02 23:59:59 +0000 UTC",
             "error": ""
@@ -943,26 +860,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns7.alidns.com.",
-        "ns8.alidns.com."
-      ],
-      "ns": [
-        "ns8.alidns.com.",
-        "ns7.alidns.com."
-      ],
+      "master_ns": ["ns7.alidns.com.", "ns8.alidns.com."],
+      "ns": ["ns8.alidns.com.", "ns7.alidns.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "47.91.170.222"
-      ],
-      "a": [
-        "47.91.170.222"
-      ]
+      "master_a": ["47.91.170.222"],
+      "a": ["47.91.170.222"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1022,34 +929,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns1.bitcoin-dns.com.",
-        "ns2.bitcoin-dns.com."
-      ],
-      "ns": [
-        "ns2.bitcoin-dns.com.",
-        "ns1.bitcoin-dns.com."
-      ],
-      "master_mx": [
-        "aib-update-websecurity.com."
-      ],
-      "mx": [
-        "aib-update-websecurity.com."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns1.bitcoin-dns.com.", "ns2.bitcoin-dns.com."],
+      "ns": ["ns2.bitcoin-dns.com.", "ns1.bitcoin-dns.com."],
+      "master_mx": ["aib-update-websecurity.com."],
+      "mx": ["aib-update-websecurity.com."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "173.254.229.220"
-      ],
-      "a": [
-        "173.254.229.220"
-      ]
+      "master_a": ["173.254.229.220"],
+      "a": ["173.254.229.220"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1066,29 +955,18 @@
     "https_token": false,
     "iframe": [],
     "links_in_tags": {
-      "link": [
-        "files/css/main.css",
-        "files/img/favicon.ico"
-      ],
+      "link": ["files/css/main.css", "files/img/favicon.ico"],
       "meta": [],
-      "script": [
-        "files/js/jquery.js"
-      ]
+      "script": ["files/js/jquery.js"]
     },
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "aib",
-      "update",
-      "websecurity"
-    ],
+    "prefix_suffix": ["aib", "update", "websecurity"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
-    "server_form_handle": [
-      "#"
-    ],
+    "server_form_handle": ["#"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -1124,9 +1002,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1136,23 +1012,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1247,11 +1114,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "0pesonal",
-      "onin03everi",
-      "glacr"
-    ],
+    "prefix_suffix": ["0pesonal", "onin03everi", "glacr"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -1282,9 +1145,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1294,23 +1155,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1367,9 +1219,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1379,23 +1229,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1452,9 +1293,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1464,23 +1303,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1537,9 +1367,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1549,23 +1377,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1622,33 +1441,21 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "index.html"
-    ],
+    "abnormal_url": ["index.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "ns8.alidns.com.",
-        "ns7.alidns.com."
-      ],
-      "ns": [
-        "ns7.alidns.com.",
-        "ns8.alidns.com."
-      ],
+      "master_ns": ["ns8.alidns.com.", "ns7.alidns.com."],
+      "ns": ["ns7.alidns.com.", "ns8.alidns.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "194.163.145.133"
-      ],
-      "a": [
-        "194.163.145.133"
-      ]
+      "master_a": ["194.163.145.133"],
+      "a": ["194.163.145.133"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1712,22 +1519,12 @@
       "ns": [],
       "master_mx": [],
       "mx": [],
-      "master_txt": [
-        "\"v=DKIM1;",
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1",
-        "\"v=DKIM1;"
-      ],
+      "master_txt": ["\"v=DKIM1;", "\"v=spf1"],
+      "txt": ["\"v=spf1", "\"v=DKIM1;"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "199.36.158.100"
-      ],
-      "a": [
-        "199.36.158.100"
-      ]
+      "master_a": ["199.36.158.100"],
+      "a": ["199.36.158.100"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1751,11 +1548,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "be",
-      "itsme",
-      "db4bc"
-    ],
+    "prefix_suffix": ["be", "itsme", "db4bc"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -1770,10 +1563,7 @@
             "ip": "199.36.158.100",
             "issuer": "GTS CA 1D4",
             "commonName": "firebaseapp.com",
-            "sans": [
-              "firebaseapp.com",
-              "*.firebaseapp.com"
-            ],
+            "sans": ["firebaseapp.com", "*.firebaseapp.com"],
             "notBefore": "2022-08-24 17:26:46 +0000 UTC",
             "notAfter": "2022-11-22 17:26:45 +0000 UTC",
             "error": ""
@@ -1789,9 +1579,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1801,23 +1589,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1874,9 +1653,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -1886,23 +1663,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -1964,28 +1732,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "elijah.ns.cloudflare.com.",
-        "sreeni.ns.cloudflare.com."
-      ],
-      "ns": [
-        "sreeni.ns.cloudflare.com.",
-        "elijah.ns.cloudflare.com."
-      ],
+      "master_ns": ["elijah.ns.cloudflare.com.", "sreeni.ns.cloudflare.com."],
+      "ns": ["sreeni.ns.cloudflare.com.", "elijah.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "172.66.44.124",
-        "172.66.47.132"
-      ],
-      "a": [
-        "172.66.47.132",
-        "172.66.44.124"
-      ]
+      "master_a": ["172.66.44.124", "172.66.47.132"],
+      "a": ["172.66.47.132", "172.66.44.124"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2024,10 +1780,7 @@
             "ip": "172.66.44.124",
             "issuer": "E1",
             "commonName": "*.48xrem.pages.dev",
-            "sans": [
-              "*.48xrem.pages.dev",
-              "48xrem.pages.dev"
-            ],
+            "sans": ["*.48xrem.pages.dev", "48xrem.pages.dev"],
             "notBefore": "2022-09-01 10:58:38 +0000 UTC",
             "notAfter": "2022-11-30 10:58:37 +0000 UTC",
             "error": ""
@@ -2060,28 +1813,14 @@
         "ns2.timeweb.ru.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2093,9 +1832,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm89649"
-    ],
+    "having_sub_domain": ["cm89649"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -2138,9 +1875,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -2150,23 +1885,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2240,28 +1966,14 @@
         "ns1.timeweb.ru.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2273,9 +1985,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cx38056"
-    ],
+    "having_sub_domain": ["cx38056"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -2323,30 +2033,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns2.kineticahosting.com.",
-        "ns1.kineticahosting.com."
-      ],
-      "ns": [
-        "ns1.kineticahosting.com.",
-        "ns2.kineticahosting.com."
-      ],
-      "master_mx": [
-        "antiquepopcornmuseum.com."
-      ],
-      "mx": [
-        "antiquepopcornmuseum.com."
-      ],
+      "master_ns": ["ns2.kineticahosting.com.", "ns1.kineticahosting.com."],
+      "ns": ["ns1.kineticahosting.com.", "ns2.kineticahosting.com."],
+      "master_mx": ["antiquepopcornmuseum.com."],
+      "mx": ["antiquepopcornmuseum.com."],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "192.254.214.160"
-      ],
-      "a": [
-        "192.254.214.160"
-      ]
+      "master_a": ["192.254.214.160"],
+      "a": ["192.254.214.160"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2385,10 +2081,7 @@
             "ip": "192.254.214.160",
             "issuer": "R3",
             "commonName": "antiquepopcornmuseum.com",
-            "sans": [
-              "*.antiquepopcornmuseum.com",
-              "antiquepopcornmuseum.com"
-            ],
+            "sans": ["*.antiquepopcornmuseum.com", "antiquepopcornmuseum.com"],
             "notBefore": "2022-07-15 16:14:45 +0000 UTC",
             "notAfter": "2022-10-13 16:14:44 +0000 UTC",
             "error": ""
@@ -2404,9 +2097,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "tenu.html"
-    ],
+    "abnormal_url": ["tenu.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": false,
@@ -2462,11 +2153,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "chipped",
-      "placid",
-      "pullover"
-    ],
+    "prefix_suffix": ["chipped", "placid", "pullover"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -2497,9 +2184,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -2509,23 +2194,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2651,9 +2327,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "telekom2.php"
-    ],
+    "abnormal_url": ["telekom2.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -2668,22 +2342,14 @@
         "cdns3.interserver.net.",
         "cdns1.interserver.net."
       ],
-      "master_mx": [
-        "mail.aldulaymiyah.com."
-      ],
-      "mx": [
-        "mail.aldulaymiyah.com."
-      ],
+      "master_mx": ["mail.aldulaymiyah.com."],
+      "mx": ["mail.aldulaymiyah.com."],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.218.50.10"
-      ],
-      "a": [
-        "104.218.50.10"
-      ]
+      "master_a": ["104.218.50.10"],
+      "a": ["104.218.50.10"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2720,10 +2386,7 @@
     "redirect": [],
     "request_url": "100%",
     "right_click": false,
-    "server_form_handle": [
-      "freedom.php",
-      "freedom.php"
-    ],
+    "server_form_handle": ["freedom.php", "freedom.php"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -2772,14 +2435,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "34.87.59.92",
-        "34.142.199.10"
-      ],
-      "a": [
-        "34.142.199.10",
-        "34.87.59.92"
-      ]
+      "master_a": ["34.87.59.92", "34.142.199.10"],
+      "a": ["34.142.199.10", "34.87.59.92"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2806,17 +2463,11 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "clinquant",
-      "buttercream",
-      "d4fa95"
-    ],
+    "prefix_suffix": ["clinquant", "buttercream", "d4fa95"],
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      "https://hijazibros.net/oobom/naver.php"
-    ],
+    "server_form_handle": ["https://hijazibros.net/oobom/naver.php"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -2827,10 +2478,7 @@
             "ip": "3.0.239.142",
             "issuer": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
             "commonName": "*.netlify.app",
-            "sans": [
-              "*.netlify.app",
-              "netlify.app"
-            ],
+            "sans": ["*.netlify.app", "netlify.app"],
             "notBefore": "2022-02-15 00:00:00 +0000 UTC",
             "notAfter": "2023-03-02 23:59:59 +0000 UTC",
             "error": ""
@@ -2865,9 +2513,7 @@
       "master_cname": [],
       "cname": [],
       "master_a": [],
-      "a": [
-        "141.8.197.42"
-      ]
+      "a": ["141.8.197.42"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -2879,9 +2525,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "a0714627"
-    ],
+    "having_sub_domain": ["a0714627"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -2955,14 +2599,9 @@
     "https_token": false,
     "iframe": [],
     "links_in_tags": {
-      "link": [
-        "files/css/main.css",
-        "files/img/favicon.ico"
-      ],
+      "link": ["files/css/main.css", "files/img/favicon.ico"],
       "meta": [],
-      "script": [
-        "files/js/jquery.js"
-      ]
+      "script": ["files/js/jquery.js"]
     },
     "on_mouseover": [],
     "popup_widnow": [],
@@ -2971,9 +2610,7 @@
     "redirect": [],
     "request_url": "",
     "right_click": false,
-    "server_form_handle": [
-      "#"
-    ],
+    "server_form_handle": ["#"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -3005,28 +2642,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "yichun.ns.cloudflare.com.",
-        "lady.ns.cloudflare.com."
-      ],
-      "ns": [
-        "lady.ns.cloudflare.com.",
-        "yichun.ns.cloudflare.com."
-      ],
+      "master_ns": ["yichun.ns.cloudflare.com.", "lady.ns.cloudflare.com."],
+      "ns": ["lady.ns.cloudflare.com.", "yichun.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.9.228",
-        "172.67.161.97"
-      ],
-      "a": [
-        "172.67.161.97",
-        "104.21.9.228"
-      ]
+      "master_a": ["104.21.9.228", "172.67.161.97"],
+      "a": ["172.67.161.97", "104.21.9.228"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3065,10 +2690,7 @@
             "ip": "172.67.161.97",
             "issuer": "E1",
             "commonName": "*.asicpod.com",
-            "sans": [
-              "*.asicpod.com",
-              "asicpod.com"
-            ],
+            "sans": ["*.asicpod.com", "asicpod.com"],
             "notBefore": "2022-08-20 09:35:46 +0000 UTC",
             "notAfter": "2022-11-18 09:35:45 +0000 UTC",
             "error": ""
@@ -3166,12 +2788,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "199.36.158.100"
-      ],
-      "a": [
-        "199.36.158.100"
-      ]
+      "master_a": ["199.36.158.100"],
+      "a": ["199.36.158.100"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3195,11 +2813,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "be",
-      "itsme",
-      "db4bc"
-    ],
+    "prefix_suffix": ["be", "itsme", "db4bc"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -3214,10 +2828,7 @@
             "ip": "199.36.158.100",
             "issuer": "GTS CA 1D4",
             "commonName": "web.app",
-            "sans": [
-              "web.app",
-              "*.web.app"
-            ],
+            "sans": ["web.app", "*.web.app"],
             "notBefore": "2022-08-12 20:44:29 +0000 UTC",
             "notAfter": "2022-11-10 20:44:28 +0000 UTC",
             "error": ""
@@ -3250,26 +2861,14 @@
         "ns3.deluxehosting.org.",
         "ns1.deluxehosting.org."
       ],
-      "master_mx": [
-        "49ersgab.com."
-      ],
-      "mx": [
-        "49ersgab.com."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["49ersgab.com."],
+      "mx": ["49ersgab.com."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "207.55.248.23"
-      ],
-      "a": [
-        "207.55.248.23"
-      ]
+      "master_a": ["207.55.248.23"],
+      "a": ["207.55.248.23"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3382,26 +2981,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns8.alidns.com.",
-        "ns7.alidns.com."
-      ],
-      "ns": [
-        "ns7.alidns.com.",
-        "ns8.alidns.com."
-      ],
+      "master_ns": ["ns8.alidns.com.", "ns7.alidns.com."],
+      "ns": ["ns7.alidns.com.", "ns8.alidns.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "69.49.235.6"
-      ],
-      "a": [
-        "69.49.235.6"
-      ]
+      "master_a": ["69.49.235.6"],
+      "a": ["69.49.235.6"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3465,9 +3054,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -3477,23 +3064,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3555,34 +3133,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns8231.hostgator.com.",
-        "ns8232.hostgator.com."
-      ],
-      "ns": [
-        "ns8232.hostgator.com.",
-        "ns8231.hostgator.com."
-      ],
-      "master_mx": [
-        "mail.apolisgaming.co.uk."
-      ],
-      "mx": [
-        "mail.apolisgaming.co.uk."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns8231.hostgator.com.", "ns8232.hostgator.com."],
+      "ns": ["ns8232.hostgator.com.", "ns8231.hostgator.com."],
+      "master_mx": ["mail.apolisgaming.co.uk."],
+      "mx": ["mail.apolisgaming.co.uk."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "192.185.46.35"
-      ],
-      "a": [
-        "192.185.46.35"
-      ]
+      "master_a": ["192.185.46.35"],
+      "a": ["192.185.46.35"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3653,33 +3213,21 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "login.php"
-    ],
+    "abnormal_url": ["login.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns8.alidns.com.",
-        "ns7.alidns.com."
-      ],
-      "ns": [
-        "ns7.alidns.com.",
-        "ns8.alidns.com."
-      ],
+      "master_ns": ["ns8.alidns.com.", "ns7.alidns.com."],
+      "ns": ["ns7.alidns.com.", "ns8.alidns.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "69.49.235.6"
-      ],
-      "a": [
-        "69.49.235.6"
-      ]
+      "master_a": ["69.49.235.6"],
+      "a": ["69.49.235.6"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3760,22 +3308,14 @@
         "ns2.hosted.name.",
         "ns4.hostedname.net."
       ],
-      "master_mx": [
-        "athomecovid19test.za.com."
-      ],
-      "mx": [
-        "athomecovid19test.za.com."
-      ],
+      "master_mx": ["athomecovid19test.za.com."],
+      "mx": ["athomecovid19test.za.com."],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "172.94.14.115"
-      ],
-      "a": [
-        "172.94.14.115"
-      ]
+      "master_a": ["172.94.14.115"],
+      "a": ["172.94.14.115"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3835,14 +3375,8 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns21.azymcloud.com.",
-        "ns20.azymcloud.com."
-      ],
-      "ns": [
-        "ns20.azymcloud.com.",
-        "ns21.azymcloud.com."
-      ],
+      "master_ns": ["ns21.azymcloud.com.", "ns20.azymcloud.com."],
+      "ns": ["ns20.azymcloud.com.", "ns21.azymcloud.com."],
       "master_mx": [
         "filter20.antispamcloud.com.",
         "filter40.antispamcloud.com.",
@@ -3855,20 +3389,12 @@
         "filter40.antispamcloud.com.",
         "filter20.antispamcloud.com."
       ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "190.124.46.111"
-      ],
-      "a": [
-        "190.124.46.111"
-      ]
+      "master_a": ["190.124.46.111"],
+      "a": ["190.124.46.111"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -3907,9 +3433,7 @@
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      ""
-    ],
+    "server_form_handle": [""],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -3945,9 +3469,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -3957,23 +3479,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4047,28 +3560,14 @@
         "ns1.timeweb.ru.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4080,9 +3579,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm89649"
-    ],
+    "having_sub_domain": ["cm89649"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -4142,28 +3639,14 @@
         "ns4.timeweb.org.",
         "ns1.timeweb.ru."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4175,9 +3658,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cy75363"
-    ],
+    "having_sub_domain": ["cy75363"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -4220,9 +3701,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "login.php"
-    ],
+    "abnormal_url": ["login.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -4264,9 +3743,7 @@
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      "javascript:void(0)"
-    ],
+    "server_form_handle": ["javascript:void(0)"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -4293,21 +3770,14 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "jquery-1.12.1.min.js"
-    ],
+    "abnormal_url": ["jquery-1.12.1.min.js"],
     "age_of_domain": "",
     "alexa_rank": 18529,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "dns2.000webhost.com.",
-        "dns1.000webhost.com."
-      ],
+      "master_ns": ["dns2.000webhost.com.", "dns1.000webhost.com."],
       "ns": [],
-      "master_mx": [
-        "ASPMX.L.GOOGLE.com."
-      ],
+      "master_mx": ["ASPMX.L.GOOGLE.com."],
       "mx": [],
       "master_txt": [
         "\"lpz6lwbc82h6t5sm22mnvr57hq6mltql\"",
@@ -4318,15 +3788,9 @@
       ],
       "txt": [],
       "master_cname": [],
-      "cname": [
-        "us-east-1.route-1.000webhost.awex.io."
-      ],
-      "master_a": [
-        "153.92.0.100"
-      ],
-      "a": [
-        "145.14.144.86"
-      ]
+      "cname": ["us-east-1.route-1.000webhost.awex.io."],
+      "master_a": ["153.92.0.100"],
+      "a": ["145.14.144.86"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4338,9 +3802,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "agplr"
-    ],
+    "having_sub_domain": ["agplr"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -4367,10 +3829,7 @@
             "ip": "145.14.144.34",
             "issuer": "RapidSSL Global TLS RSA4096 SHA256 2022 CA1",
             "commonName": "*.000webhostapp.com",
-            "sans": [
-              "*.000webhostapp.com",
-              "000webhostapp.com"
-            ],
+            "sans": ["*.000webhostapp.com", "000webhostapp.com"],
             "notBefore": "2022-08-04 00:00:00 +0000 UTC",
             "notAfter": "2023-07-10 23:59:59 +0000 UTC",
             "error": ""
@@ -4386,9 +3845,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -4398,23 +3855,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4471,35 +3919,21 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "index.php"
-    ],
+    "abnormal_url": ["index.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "jobs.ns.cloudflare.com.",
-        "gigi.ns.cloudflare.com."
-      ],
-      "ns": [
-        "gigi.ns.cloudflare.com.",
-        "jobs.ns.cloudflare.com."
-      ],
+      "master_ns": ["jobs.ns.cloudflare.com.", "gigi.ns.cloudflare.com."],
+      "ns": ["gigi.ns.cloudflare.com.", "jobs.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.41.216",
-        "172.67.152.8"
-      ],
-      "a": [
-        "172.67.152.8",
-        "104.21.41.216"
-      ]
+      "master_a": ["104.21.41.216", "172.67.152.8"],
+      "a": ["172.67.152.8", "104.21.41.216"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4538,10 +3972,7 @@
             "ip": "172.67.152.8",
             "issuer": "E1",
             "commonName": "*.blkmklkmncell.com",
-            "sans": [
-              "*.blkmklkmncell.com",
-              "blkmklkmncell.com"
-            ],
+            "sans": ["*.blkmklkmncell.com", "blkmklkmncell.com"],
             "notBefore": "2022-08-30 08:06:14 +0000 UTC",
             "notAfter": "2022-11-28 08:06:13 +0000 UTC",
             "error": ""
@@ -4557,18 +3988,12 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "godsama.sharepoint.com",
-      "default.aspx"
-    ],
+    "abnormal_url": ["godsama.sharepoint.com", "default.aspx"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "norm.ns.cloudflare.com.",
-        "betty.ns.cloudflare.com."
-      ],
+      "master_ns": ["norm.ns.cloudflare.com.", "betty.ns.cloudflare.com."],
       "ns": [],
       "master_mx": [],
       "mx": [],
@@ -4576,12 +4001,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "108.160.169.181"
-      ],
-      "a": [
-        "128.242.240.85"
-      ]
+      "master_a": ["108.160.169.181"],
+      "a": ["128.242.240.85"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "https://godsama.sharepoint.com/_forms/default.aspx&state=od0w&claims=%7B%22id_token%22:%7B%22xms_cc%22:%7B%22values%22:[%22cp1%22]%7D%7D%7D&wsucxt=1&cobrandid=11bd8083-87e0-41b5-bb78-0bc43c8a8e8a&client-request-id=896460a0-60df-1000-8b74-9ec172a7dca4&sso_reload=true",
@@ -4593,9 +4014,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cloud"
-    ],
+    "having_sub_domain": ["cloud"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -4643,34 +4062,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns1.bitcoin-dns.com.",
-        "ns2.bitcoin-dns.com."
-      ],
-      "ns": [
-        "ns2.bitcoin-dns.com.",
-        "ns1.bitcoin-dns.com."
-      ],
-      "master_mx": [
-        "aib-auth-weblogin.com."
-      ],
-      "mx": [
-        "aib-auth-weblogin.com."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns1.bitcoin-dns.com.", "ns2.bitcoin-dns.com."],
+      "ns": ["ns2.bitcoin-dns.com.", "ns1.bitcoin-dns.com."],
+      "master_mx": ["aib-auth-weblogin.com."],
+      "mx": ["aib-auth-weblogin.com."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "173.254.229.196"
-      ],
-      "a": [
-        "173.254.229.196"
-      ]
+      "master_a": ["173.254.229.196"],
+      "a": ["173.254.229.196"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4687,29 +4088,18 @@
     "https_token": false,
     "iframe": [],
     "links_in_tags": {
-      "link": [
-        "files/css/main.css",
-        "files/img/favicon.ico"
-      ],
+      "link": ["files/css/main.css", "files/img/favicon.ico"],
       "meta": [],
-      "script": [
-        "files/js/jquery.js"
-      ]
+      "script": ["files/js/jquery.js"]
     },
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "aib",
-      "auth",
-      "weblogin"
-    ],
+    "prefix_suffix": ["aib", "auth", "weblogin"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
-    "server_form_handle": [
-      "#"
-    ],
+    "server_form_handle": ["#"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -4819,38 +4209,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns.zxcs.eu.",
-        "ns.zxcs.nl.",
-        "ns.zxcs.be."
-      ],
-      "ns": [
-        "ns.zxcs.be.",
-        "ns.zxcs.nl.",
-        "ns.zxcs.eu."
-      ],
-      "master_mx": [
-        "bronzgreenh-com02e.mail.protection.outlook.com."
-      ],
-      "mx": [
-        "bronzgreenh-com02e.mail.protection.outlook.com."
-      ],
-      "master_txt": [
-        "\"MS=ms20816813\"",
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1",
-        "\"MS=ms20816813\""
-      ],
+      "master_ns": ["ns.zxcs.eu.", "ns.zxcs.nl.", "ns.zxcs.be."],
+      "ns": ["ns.zxcs.be.", "ns.zxcs.nl.", "ns.zxcs.eu."],
+      "master_mx": ["bronzgreenh-com02e.mail.protection.outlook.com."],
+      "mx": ["bronzgreenh-com02e.mail.protection.outlook.com."],
+      "master_txt": ["\"MS=ms20816813\"", "\"v=spf1"],
+      "txt": ["\"v=spf1", "\"MS=ms20816813\""],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "185.104.29.54"
-      ],
-      "a": [
-        "185.104.29.54"
-      ]
+      "master_a": ["185.104.29.54"],
+      "a": ["185.104.29.54"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4909,10 +4277,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "bronzgreen",
-      "h"
-    ],
+    "prefix_suffix": ["bronzgreen", "h"],
     "redirect": [],
     "request_url": "100%",
     "right_click": false,
@@ -4953,9 +4318,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "confirmid.php"
-    ],
+    "abnormal_url": ["confirmid.php"],
     "age_of_domain": "",
     "alexa_rank": 189148,
     "google_phishing_api": true,
@@ -4968,12 +4331,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "54.83.194.254"
-      ],
-      "a": [
-        "199.102.48.34"
-      ]
+      "master_a": ["54.83.194.254"],
+      "a": ["199.102.48.34"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -4985,9 +4344,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "545487875454212542022"
-    ],
+    "having_sub_domain": ["545487875454212542022"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5003,9 +4360,7 @@
     "redirect": [],
     "request_url": "",
     "right_click": false,
-    "server_form_handle": [
-      "rek.php"
-    ],
+    "server_form_handle": ["rek.php"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -5037,34 +4392,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns8287.hostgator.com.",
-        "ns8288.hostgator.com."
-      ],
-      "ns": [
-        "ns8288.hostgator.com.",
-        "ns8287.hostgator.com."
-      ],
-      "master_mx": [
-        "amascollection.com."
-      ],
-      "mx": [
-        "amascollection.com."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns8287.hostgator.com.", "ns8288.hostgator.com."],
+      "ns": ["ns8288.hostgator.com.", "ns8287.hostgator.com."],
+      "master_mx": ["amascollection.com."],
+      "mx": ["amascollection.com."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "192.185.52.153"
-      ],
-      "a": [
-        "192.185.52.153"
-      ]
+      "master_a": ["192.185.52.153"],
+      "a": ["192.185.52.153"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5103,10 +4440,7 @@
             "ip": "192.185.52.153",
             "issuer": "R3",
             "commonName": "amascollection.com",
-            "sans": [
-              "*.amascollection.com",
-              "amascollection.com"
-            ],
+            "sans": ["*.amascollection.com", "amascollection.com"],
             "notBefore": "2022-07-17 03:30:55 +0000 UTC",
             "notAfter": "2022-10-15 03:30:54 +0000 UTC",
             "error": ""
@@ -5127,22 +4461,10 @@
     "alexa_rank": 0,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "mary.ns.cloudflare.com.",
-        "jimmy.ns.cloudflare.com."
-      ],
-      "ns": [
-        "jimmy.ns.cloudflare.com.",
-        "mary.ns.cloudflare.com."
-      ],
-      "master_mx": [
-        "mx2.forwardemail.net.",
-        "mx1.forwardemail.net."
-      ],
-      "mx": [
-        "mx1.forwardemail.net.",
-        "mx2.forwardemail.net."
-      ],
+      "master_ns": ["mary.ns.cloudflare.com.", "jimmy.ns.cloudflare.com."],
+      "ns": ["jimmy.ns.cloudflare.com.", "mary.ns.cloudflare.com."],
+      "master_mx": ["mx2.forwardemail.net.", "mx1.forwardemail.net."],
+      "mx": ["mx1.forwardemail.net.", "mx2.forwardemail.net."],
       "master_txt": [
         "\"forward-email=caphenymiranaclaire@gmail.com\"",
         "\"v=spf1",
@@ -5173,14 +4495,8 @@
       ],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "172.67.175.30",
-        "104.21.56.4"
-      ],
-      "a": [
-        "104.21.56.4",
-        "172.67.175.30"
-      ]
+      "master_a": ["172.67.175.30", "104.21.56.4"],
+      "a": ["104.21.56.4", "172.67.175.30"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5204,10 +4520,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "atomic",
-      "law"
-    ],
+    "prefix_suffix": ["atomic", "law"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -5243,26 +4556,16 @@
     "alexa_rank": 131665,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "ns2.reg.ru.",
-        "ns1.reg.ru."
-      ],
+      "master_ns": ["ns2.reg.ru.", "ns1.reg.ru."],
       "ns": [],
-      "master_mx": [
-        "mx.yandex.ru."
-      ],
+      "master_mx": ["mx.yandex.ru."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
       "master_a": [],
-      "a": [
-        "151.248.124.254",
-        "151.248.124.6"
-      ]
+      "a": ["151.248.124.254", "151.248.124.6"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5274,10 +4577,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jelastic",
-      "btyuy"
-    ],
+    "having_sub_domain": ["jelastic", "btyuy"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5290,9 +4590,7 @@
         "https://fonts.googleapis.com/css?family=Raleway"
       ],
       "meta": [],
-      "script": [
-        "js/bootstrap.min.js"
-      ]
+      "script": ["js/bootstrap.min.js"]
     },
     "on_mouseover": [],
     "popup_widnow": [],
@@ -5312,10 +4610,7 @@
             "ip": "151.248.124.6",
             "issuer": "AlphaSSL CA - SHA256 - G2",
             "commonName": "*.jelastic.regruhosting.ru",
-            "sans": [
-              "*.jelastic.regruhosting.ru",
-              "jelastic.regruhosting.ru"
-            ],
+            "sans": ["*.jelastic.regruhosting.ru", "jelastic.regruhosting.ru"],
             "notBefore": "2022-02-25 10:54:14 +0000 UTC",
             "notAfter": "2023-03-29 10:54:14 +0000 UTC",
             "error": ""
@@ -5474,10 +4769,7 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "jm2.dns.com.",
-        "jm1.dns.com."
-      ],
+      "master_ns": ["jm2.dns.com.", "jm1.dns.com."],
       "ns": [],
       "master_mx": [],
       "mx": [],
@@ -5486,9 +4778,7 @@
       "master_cname": [],
       "cname": [],
       "master_a": [],
-      "a": [
-        "155.94.194.118"
-      ]
+      "a": ["155.94.194.118"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5500,11 +4790,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5573,11 +4859,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "jp",
-      "co",
-      "amozon"
-    ],
+    "having_sub_domain": ["jp", "co", "amozon"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5637,28 +4919,14 @@
         "ns4.timeweb.org.",
         "ns1.timeweb.ru."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5670,9 +4938,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm89649"
-    ],
+    "having_sub_domain": ["cm89649"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5732,28 +4998,14 @@
         "ns1.timeweb.ru.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5765,9 +5017,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cy75363"
-    ],
+    "having_sub_domain": ["cy75363"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -5874,9 +5124,7 @@
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      "wp1.php"
-    ],
+    "server_form_handle": ["wp1.php"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -5920,28 +5168,14 @@
         "ns3.timeweb.org.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -5953,9 +5187,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm07820"
-    ],
+    "having_sub_domain": ["cm07820"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6020,9 +5252,7 @@
       "master_cname": [],
       "cname": [],
       "master_a": [],
-      "a": [
-        "209.94.90.1"
-      ]
+      "a": ["209.94.90.1"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6098,12 +5328,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "142.251.42.244"
-      ],
-      "a": [
-        "142.251.43.20"
-      ]
+      "master_a": ["142.251.42.244"],
+      "a": ["142.251.43.20"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6115,9 +5341,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "caray-dot-microsoft-359715"
-    ],
+    "having_sub_domain": ["caray-dot-microsoft-359715"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6129,12 +5353,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "caray",
-      "dot",
-      "microsoft",
-      "359715"
-    ],
+    "prefix_suffix": ["caray", "dot", "microsoft", "359715"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -6178,12 +5397,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "162.125.2.5"
-      ],
-      "a": [
-        "174.37.54.20"
-      ]
+      "master_a": ["162.125.2.5"],
+      "a": ["174.37.54.20"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6195,9 +5410,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "7uihjk"
-    ],
+    "having_sub_domain": ["7uihjk"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6240,9 +5453,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "progams2.html"
-    ],
+    "abnormal_url": ["progams2.html"],
     "age_of_domain": "",
     "alexa_rank": 189148,
     "google_phishing_api": true,
@@ -6254,15 +5465,9 @@
       "master_txt": [],
       "txt": [],
       "master_cname": [],
-      "cname": [
-        "20-29-101-173.cprapid.com."
-      ],
-      "master_a": [
-        "54.83.194.254"
-      ],
-      "a": [
-        "20.29.101.173"
-      ]
+      "cname": ["20-29-101-173.cprapid.com."],
+      "master_a": ["54.83.194.254"],
+      "a": ["20.29.101.173"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6274,9 +5479,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "apps2022"
-    ],
+    "having_sub_domain": ["apps2022"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6334,26 +5537,14 @@
         "ns23.inhostedns.net.",
         "ns33.inhostedns.org."
       ],
-      "master_mx": [
-        "mx.ukraine.com.ua."
-      ],
-      "mx": [
-        "mx.ukraine.com.ua."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx.ukraine.com.ua."],
+      "mx": ["mx.ukraine.com.ua."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "185.104.45.25"
-      ],
-      "a": [
-        "185.104.45.25"
-      ]
+      "master_a": ["185.104.45.25"],
+      "a": ["185.104.45.25"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6392,10 +5583,7 @@
             "ip": "185.104.45.25",
             "issuer": "R3",
             "commonName": "www.bazhanyi.com.ua",
-            "sans": [
-              "bazhanyi.com.ua",
-              "www.bazhanyi.com.ua"
-            ],
+            "sans": ["bazhanyi.com.ua", "www.bazhanyi.com.ua"],
             "notBefore": "2022-08-31 11:43:32 +0000 UTC",
             "notAfter": "2022-11-29 11:43:31 +0000 UTC",
             "error": ""
@@ -6411,9 +5599,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -6423,23 +5609,14 @@
         "ns1.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"MS=ms83797977\"",
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"MS=ms83797977\"", "\"v=spf1"],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6513,28 +5690,14 @@
         "ns1.timeweb.ru.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6546,9 +5709,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm89649"
-    ],
+    "having_sub_domain": ["cm89649"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6596,28 +5757,16 @@
     "alexa_rank": 0,
     "google_phishing_api": false,
     "dns_record": {
-      "master_ns": [
-        "damiete.ns.cloudflare.com.",
-        "irma.ns.cloudflare.com."
-      ],
-      "ns": [
-        "irma.ns.cloudflare.com.",
-        "damiete.ns.cloudflare.com."
-      ],
+      "master_ns": ["damiete.ns.cloudflare.com.", "irma.ns.cloudflare.com."],
+      "ns": ["irma.ns.cloudflare.com.", "damiete.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.65.42",
-        "172.67.140.125"
-      ],
-      "a": [
-        "172.67.140.125",
-        "104.21.65.42"
-      ]
+      "master_a": ["104.21.65.42", "172.67.140.125"],
+      "a": ["172.67.140.125", "104.21.65.42"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6689,28 +5838,14 @@
         "ns3.timeweb.org.",
         "ns4.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6722,9 +5857,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cy75363"
-    ],
+    "having_sub_domain": ["cy75363"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -6767,9 +5900,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -6779,23 +5910,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6852,9 +5974,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -6864,23 +5984,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -6937,9 +6048,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -6949,23 +6058,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7039,28 +6139,14 @@
         "ns2.timeweb.ru.",
         "ns3.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7072,9 +6158,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm07820"
-    ],
+    "having_sub_domain": ["cm07820"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -7122,34 +6206,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns3.alexhost.md.",
-        "ns4.alexhost.md."
-      ],
-      "ns": [
-        "ns4.alexhost.md.",
-        "ns3.alexhost.md."
-      ],
-      "master_mx": [
-        "cdfsafesecure29293.net."
-      ],
-      "mx": [
-        "cdfsafesecure29293.net."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns3.alexhost.md.", "ns4.alexhost.md."],
+      "ns": ["ns4.alexhost.md.", "ns3.alexhost.md."],
+      "master_mx": ["cdfsafesecure29293.net."],
+      "mx": ["cdfsafesecure29293.net."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "176.123.0.55"
-      ],
-      "a": [
-        "176.123.0.55"
-      ]
+      "master_a": ["176.123.0.55"],
+      "a": ["176.123.0.55"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7214,23 +6280,15 @@
         "ns.masterhost.ru.",
         "ns2.masterhost.ru."
       ],
-      "ns": [
-        "ns2.masterhost.ru.",
-        "ns.masterhost.ru.",
-        "ns1.masterhost.ru."
-      ],
+      "ns": ["ns2.masterhost.ru.", "ns.masterhost.ru.", "ns1.masterhost.ru."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "51.116.145.37"
-      ],
-      "a": [
-        "51.116.145.37"
-      ]
+      "master_a": ["51.116.145.37"],
+      "a": ["51.116.145.37"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7269,9 +6327,7 @@
             "ip": "51.116.145.37",
             "issuer": "GeoTrust Global TLS RSA4096 SHA256 2022 CA1",
             "commonName": "cyberpunkmetis.com",
-            "sans": [
-              "cyberpunkmetis.com"
-            ],
+            "sans": ["cyberpunkmetis.com"],
             "notBefore": "2022-08-23 00:00:00 +0000 UTC",
             "notAfter": "2023-02-23 23:59:59 +0000 UTC",
             "error": ""
@@ -7287,9 +6343,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "email.html"
-    ],
+    "abnormal_url": ["email.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -7299,23 +6353,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7372,9 +6417,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "Program.html"
-    ],
+    "abnormal_url": ["Program.html"],
     "age_of_domain": "",
     "alexa_rank": 189148,
     "google_phishing_api": true,
@@ -7386,15 +6429,9 @@
       "master_txt": [],
       "txt": [],
       "master_cname": [],
-      "cname": [
-        "20-29-101-173.cprapid.com."
-      ],
-      "master_a": [
-        "54.83.194.254"
-      ],
-      "a": [
-        "20.29.101.173"
-      ]
+      "cname": ["20-29-101-173.cprapid.com."],
+      "master_a": ["54.83.194.254"],
+      "a": ["20.29.101.173"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7406,9 +6443,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "apps2022"
-    ],
+    "having_sub_domain": ["apps2022"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -7451,9 +6486,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "kjfar.php"
-    ],
+    "abnormal_url": ["kjfar.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -7463,23 +6496,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7553,28 +6577,14 @@
         "ns4.timeweb.org.",
         "ns1.timeweb.ru."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7586,9 +6596,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "co00868"
-    ],
+    "having_sub_domain": ["co00868"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -7631,9 +6639,7 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "scd.html"
-    ],
+    "abnormal_url": ["scd.html"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
@@ -7643,23 +6649,14 @@
         "ns2.reseller-223.mco2.hostdime.com."
       ],
       "ns": [],
-      "master_mx": [
-        "xzone-no.mail.protection.outlook.com."
-      ],
+      "master_mx": ["xzone-no.mail.protection.outlook.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1",
-        "\"MS=ms83797977\""
-      ],
+      "master_txt": ["\"v=spf1", "\"MS=ms83797977\""],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "67.23.254.254"
-      ],
-      "a": [
-        "67.23.254.254"
-      ]
+      "master_a": ["67.23.254.254"],
+      "a": ["67.23.254.254"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7721,14 +6718,8 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "aria.ns.cloudflare.com.",
-        "agustin.ns.cloudflare.com."
-      ],
-      "ns": [
-        "agustin.ns.cloudflare.com.",
-        "aria.ns.cloudflare.com."
-      ],
+      "master_ns": ["aria.ns.cloudflare.com.", "agustin.ns.cloudflare.com."],
+      "ns": ["agustin.ns.cloudflare.com.", "aria.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [
@@ -7751,14 +6742,8 @@
       ],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.13.84",
-        "172.67.132.163"
-      ],
-      "a": [
-        "172.67.132.163",
-        "104.21.13.84"
-      ]
+      "master_a": ["104.21.13.84", "172.67.132.163"],
+      "a": ["172.67.132.163", "104.21.13.84"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7834,28 +6819,14 @@
         "ns4.timeweb.org.",
         "ns1.timeweb.ru."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7867,9 +6838,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm07820"
-    ],
+    "having_sub_domain": ["cm07820"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -7929,28 +6898,14 @@
         "ns2.timeweb.ru.",
         "ns3.timeweb.org."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -7962,9 +6917,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "co98618"
-    ],
+    "having_sub_domain": ["co98618"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8032,13 +6985,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "192.64.119.98"
-      ],
-      "a": [
-        "63.250.43.13",
-        "63.250.43.14"
-      ]
+      "master_a": ["192.64.119.98"],
+      "a": ["63.250.43.13", "63.250.43.14"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8050,10 +6998,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "ingress-daribow",
-      "communicationcenrale-ba5b01"
-    ],
+    "having_sub_domain": ["ingress-daribow", "communicationcenrale-ba5b01"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8067,12 +7012,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "communicationcenrale",
-      "ba5b01",
-      "ingress",
-      "daribow"
-    ],
+    "prefix_suffix": ["communicationcenrale", "ba5b01", "ingress", "daribow"],
     "redirect": [],
     "request_url": "",
     "right_click": false,
@@ -8087,10 +7027,7 @@
             "ip": "63.250.43.14",
             "issuer": "Sectigo RSA Domain Validation Secure Server CA",
             "commonName": "*.ingress-daribow.ewp.live",
-            "sans": [
-              "*.ingress-daribow.ewp.live",
-              "ingress-daribow.ewp.live"
-            ],
+            "sans": ["*.ingress-daribow.ewp.live", "ingress-daribow.ewp.live"],
             "notBefore": "2022-05-24 00:00:00 +0000 UTC",
             "notAfter": "2023-05-24 23:59:59 +0000 UTC",
             "error": ""
@@ -8111,14 +7048,8 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "agustin.ns.cloudflare.com.",
-        "aria.ns.cloudflare.com."
-      ],
-      "ns": [
-        "aria.ns.cloudflare.com.",
-        "agustin.ns.cloudflare.com."
-      ],
+      "master_ns": ["agustin.ns.cloudflare.com.", "aria.ns.cloudflare.com."],
+      "ns": ["aria.ns.cloudflare.com.", "agustin.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [
@@ -8137,14 +7068,8 @@
       ],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.91.6",
-        "172.67.163.252"
-      ],
-      "a": [
-        "172.67.163.252",
-        "104.21.91.6"
-      ]
+      "master_a": ["104.21.91.6", "172.67.163.252"],
+      "a": ["172.67.163.252", "104.21.91.6"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8183,10 +7108,7 @@
             "ip": "172.67.163.252",
             "issuer": "E1",
             "commonName": "*.cyberspacefish.com",
-            "sans": [
-              "*.cyberspacefish.com",
-              "cyberspacefish.com"
-            ],
+            "sans": ["*.cyberspacefish.com", "cyberspacefish.com"],
             "notBefore": "2022-07-23 06:47:59 +0000 UTC",
             "notAfter": "2022-10-21 06:47:58 +0000 UTC",
             "error": ""
@@ -8207,34 +7129,16 @@
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns1028.hostgator.com.br.",
-        "ns1029.hostgator.com.br."
-      ],
-      "ns": [
-        "ns1029.hostgator.com.br.",
-        "ns1028.hostgator.com.br."
-      ],
-      "master_mx": [
-        "mail.consultele.com.br."
-      ],
-      "mx": [
-        "mail.consultele.com.br."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_ns": ["ns1028.hostgator.com.br.", "ns1029.hostgator.com.br."],
+      "ns": ["ns1029.hostgator.com.br.", "ns1028.hostgator.com.br."],
+      "master_mx": ["mail.consultele.com.br."],
+      "mx": ["mail.consultele.com.br."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "162.241.203.221"
-      ],
-      "a": [
-        "162.241.203.221"
-      ]
+      "master_a": ["162.241.203.221"],
+      "a": ["162.241.203.221"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8276,9 +7180,7 @@
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      "infos.php"
-    ],
+    "server_form_handle": ["infos.php"],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -8332,28 +7234,14 @@
         "ns4.timeweb.org.",
         "ns1.timeweb.ru."
       ],
-      "master_mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8365,9 +7253,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm07820"
-    ],
+    "having_sub_domain": ["cm07820"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8410,36 +7296,21 @@
     "timestamp": "2022-8-22T06:06:08.219663Z"
   },
   {
-    "abnormal_url": [
-      "indexs.php"
-    ],
+    "abnormal_url": ["indexs.php"],
     "age_of_domain": "",
     "alexa_rank": 0,
     "google_phishing_api": true,
     "dns_record": {
-      "master_ns": [
-        "ns27.dnsdhs.com.",
-        "ns28.dnsdhs.com."
-      ],
+      "master_ns": ["ns27.dnsdhs.com.", "ns28.dnsdhs.com."],
       "ns": [],
-      "master_mx": [
-        "avcipay.com."
-      ],
+      "master_mx": ["avcipay.com."],
       "mx": [],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "5.180.186.5"
-      ],
-      "a": [
-        "5.180.186.5"
-      ]
+      "master_a": ["5.180.186.5"],
+      "a": ["5.180.186.5"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8451,9 +7322,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "deniz3"
-    ],
+    "having_sub_domain": ["deniz3"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8485,9 +7354,7 @@
     "redirect": [],
     "request_url": "0%",
     "right_click": false,
-    "server_form_handle": [
-      ""
-    ],
+    "server_form_handle": [""],
     "shortening_service": "",
     "ssl_final_state": [
       {
@@ -8539,28 +7406,14 @@
         "ns2.timeweb.ru.",
         "ns3.timeweb.org."
       ],
-      "master_mx": [
-        "mx2.timeweb.ru.",
-        "mx1.timeweb.ru."
-      ],
-      "mx": [
-        "mx1.timeweb.ru.",
-        "mx2.timeweb.ru."
-      ],
-      "master_txt": [
-        "\"v=spf1"
-      ],
-      "txt": [
-        "\"v=spf1"
-      ],
+      "master_mx": ["mx2.timeweb.ru.", "mx1.timeweb.ru."],
+      "mx": ["mx1.timeweb.ru.", "mx2.timeweb.ru."],
+      "master_txt": ["\"v=spf1"],
+      "txt": ["\"v=spf1"],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "92.53.116.113"
-      ],
-      "a": [
-        "5.23.51.195"
-      ]
+      "master_a": ["92.53.116.113"],
+      "a": ["5.23.51.195"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8572,9 +7425,7 @@
     "having_special_symbols": false,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "cm89649"
-    ],
+    "having_sub_domain": ["cm89649"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8626,24 +7477,15 @@
         "jermaine.ns.cloudflare.com.",
         "addilyn.ns.cloudflare.com."
       ],
-      "ns": [
-        "addilyn.ns.cloudflare.com.",
-        "jermaine.ns.cloudflare.com."
-      ],
+      "ns": ["addilyn.ns.cloudflare.com.", "jermaine.ns.cloudflare.com."],
       "master_mx": [],
       "mx": [],
       "master_txt": [],
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "104.21.52.81",
-        "172.67.196.236"
-      ],
-      "a": [
-        "172.67.196.236",
-        "104.21.52.81"
-      ]
+      "master_a": ["104.21.52.81", "172.67.196.236"],
+      "a": ["172.67.196.236", "104.21.52.81"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8682,10 +7524,7 @@
             "ip": "172.67.196.236",
             "issuer": "E1",
             "commonName": "*.controlleddrift.com",
-            "sans": [
-              "*.controlleddrift.com",
-              "controlleddrift.com"
-            ],
+            "sans": ["*.controlleddrift.com", "controlleddrift.com"],
             "notBefore": "2022-07-27 14:19:32 +0000 UTC",
             "notAfter": "2022-10-25 14:19:31 +0000 UTC",
             "error": ""
@@ -8714,12 +7553,8 @@
       "txt": [],
       "master_cname": [],
       "cname": [],
-      "master_a": [
-        "185.45.7.189"
-      ],
-      "a": [
-        "52.58.1.161"
-      ]
+      "master_a": ["185.45.7.189"],
+      "a": ["52.58.1.161"]
     },
     "domain_registeration_date": "",
     "double_slash_redirecting": "",
@@ -8731,9 +7566,7 @@
     "having_special_symbols": true,
     "having_pound_sign": false,
     "having_ip_address": false,
-    "having_sub_domain": [
-      "core"
-    ],
+    "having_sub_domain": ["core"],
     "starts_with_dot": false,
     "https_token": false,
     "iframe": [],
@@ -8745,10 +7578,7 @@
     "on_mouseover": [],
     "popup_widnow": [],
     "port": false,
-    "prefix_suffix": [
-      "pdf",
-      "asset"
-    ],
+    "prefix_suffix": ["pdf", "asset"],
     "redirect": [],
     "request_url": "",
     "right_click": false,

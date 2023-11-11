@@ -5,6 +5,8 @@ tmp/
 /.std
 /.data
 # nixago: ignore-linked-files
+/.conform.yaml
+/lefthook.yml
 /book.toml
 /treefmt.toml
 book.toml
